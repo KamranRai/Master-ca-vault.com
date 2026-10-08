@@ -1,0 +1,96 @@
+<!--
+title: Unit-Price Contract Management Software | CA-Vault
+description: What unit-price construction contracts are, why they are hard to administer, and how CA-Vault manages quantities, unit rates, progress, changes, billing and payment certification on one record.
+label: Unit-Price Contracts
+schema: article
+-->
+<section class="page-hero">
+  <div class="wrap page-hero__in">
+    <div class="page-hero__copy">
+      {{crumbs}}
+      <p class="eyebrow"><span>UP</span> Pillar guide</p>
+      <h1>Unit-Price Contract Management Software</h1>
+      <p class="lead">A unit-price contract pays the contractor for the quantity of each item actually built, at an agreed rate per unit. CA-Vault is organised around that structure from the first bid to the final payment certificate.</p>
+      <div class="btn-row"><a class="btn btn--primary btn--lg" href="/book-demo/" data-event="demo_cta_click" data-loc="upc-hero">Book a Free Demo</a><a class="btn btn--ghost" href="#workflow">See the CA-Vault workflow</a></div>
+    </div>
+    <div class="page-hero__visual">{{shot:invoice|Contract quantity and unit price, work invoiced to date, and work completed this invoice, for every line.}}</div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="wrap with-toc">
+    <article class="prose">
+      <div class="takeaway"><p><strong>Key takeaway:</strong> on a unit-price contract the final cost is not fixed at award. It is the sum of <em>measured quantity &times; unit rate</em> for every item, adjusted by change orders. That makes the schedule of prices the single most important record on the job, and every administrative task, from bid comparison to payment certification, is a calculation on it.</p></div>
+
+      <h2 id="what">What is a unit-price contract?</h2>
+      <p>In a unit-price contract (also called a unit-rate or measure-and-pay contract), the work is broken into items in a <strong>schedule of prices</strong>. Each item has a description, a unit of measure, an estimated quantity and a unit price submitted by the contractor. The contractor is paid for the quantity actually completed, measured on site.</p>
+      <p>They are common in civil infrastructure, site servicing, roadworks, earthworks and landscape construction, where quantities such as cubic metres of excavation or square metres of sod cannot be known exactly in advance.</p>
+      <div class="table-wrap"><table class="compare" style="min-width:520px">
+        <thead><tr><th scope="col">Item</th><th scope="col">Unit</th><th scope="col">Est. qty &times; unit price</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Strip and stockpile topsoil</th><td>Cu.M.</td><td>100,000 &times; $4.00 = $400,000.00</td></tr>
+          <tr><th scope="row">Vibration monitoring</th><td>Days</td><td>10 &times; $1,100.00 = $11,000.00</td></tr>
+          <tr><th scope="row">Provide all traffic control</th><td>L.S.</td><td>1 &times; $3,800.00 = $3,800.00</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Example lines in the format of a schedule of prices. Lump-sum (L.S.) items can sit alongside measured items.</p>
+
+      <h2 id="hard">Why unit-price contracts are hard to administer</h2>
+      <ul>
+        <li><strong>Long lists.</strong> A civil tender can have hundreds of items. Five bidders means thousands of prices to compare.</li>
+        <li><strong>Quantities move.</strong> The estimate is rarely the final quantity, so the contract value changes without any change order.</li>
+        <li><strong>Every period is a re-measure.</strong> Each progress claim needs quantity to date, quantity this period and the amount for every line.</li>
+        <li><strong>Changes add lines.</strong> New items and revised rates have to join the same schedule without breaking the totals.</li>
+        <li><strong>Two parties, one set of numbers.</strong> Contractor and consultant both track quantities and must agree before payment.</li>
+      </ul>
+
+      <h2 id="parts">The moving parts</h2>
+      <h3>Quantities</h3>
+      <p>Estimated at tender, measured during construction. The difference is the main source of cost variance.</p>
+      <h3>Unit rates</h3>
+      <p>Fixed by the awarded bid. Comparing rates across bidders, line by line, is what a <a href="/platform/bid-management/">bid comparison</a> does.</p>
+      <h3>Progress</h3>
+      <p>Completed quantity as a share of contract quantity, recorded each period in a <a href="/platform/progress-reporting/">progress report</a>.</p>
+      <h3>Changes</h3>
+      <p>Additions, deletions and credits approved through <a href="/platform/change-orders/">change orders</a>.</p>
+      <h3>Billing</h3>
+      <p>The contractor&rsquo;s <a href="/platform/progress-billing/">progress invoice</a>: this period&rsquo;s quantities times their rates, less holdback, plus tax.</p>
+      <h3>Payment certification</h3>
+      <p>The consultant&rsquo;s confirmation of the amount payable, in a <a href="/platform/payment-certification/">payment certificate</a>.</p>
+
+      <h2 id="workflow">The CA-Vault workflow for unit-price contracts</h2>
+      <ol>
+        <li><strong>Build the schedule of prices once</strong>, as a budget or directly as a tender.</li>
+        <li><strong>Tender on it.</strong> Every bidder prices the same items and units.</li>
+        <li><strong>Compare at close.</strong> Unit prices and totals side by side, against the average bid or your budgeted price.</li>
+        <li><strong>Award.</strong> The winning rates become the contract.</li>
+        <li><strong>Record progress</strong> against each item as work is completed.</li>
+        <li><strong>Manage changes</strong> as priced, signed additions to the same contract.</li>
+        <li><strong>Invoice and certify</strong> from the recorded quantities, with holdback and tax calculated.</li>
+      </ol>
+      <p>At no point does anyone copy the schedule into another file.</p>
+
+      <h2 id="mistakes">Common mistakes</h2>
+      <ul>
+        <li>Letting contractor and consultant keep separate quantity spreadsheets and reconciling only at month end.</li>
+        <li>Approving extra work verbally and pricing it at billing time.</li>
+        <li>Comparing bid totals only, and missing unbalanced unit rates on individual items.</li>
+        <li>Rebuilding the payment certificate from scratch each period.</li>
+      </ul>
+
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="faq-list">
+        <details class="faq"><summary>What is the difference between a unit-price and a lump-sum contract?</summary><div class="faq__a"><p>A lump-sum contract fixes one price for the whole scope. A unit-price contract fixes a rate per unit for each item, and the total depends on the quantities actually built.</p></div></details>
+        <details class="faq"><summary>What is a schedule of prices?</summary><div class="faq__a"><p>The itemised list in a unit-price contract showing each item&rsquo;s description, unit, quantity and unit price. It is the basis for bidding, progress measurement and payment.</p></div></details>
+        <details class="faq"><summary>What is holdback?</summary><div class="faq__a"><p>A percentage of each progress payment retained by the owner until conditions set by the contract or by legislation are met. It is also called retainage in some jurisdictions. CA-Vault lets you add holdback amounts to an invoice.</p></div></details>
+        <details class="faq"><summary>Can lump-sum and provisional items be included?</summary><div class="faq__a"><p>Yes. Lump-sum items appear in the schedule with a quantity of one, and contracts in CA-Vault have a separate provisional items section.</p></div></details>
+        <details class="faq"><summary>Who is CA-Vault&rsquo;s unit-price workflow for?</summary><div class="faq__a"><p>Civil engineers, landscape architects and other consultants who tender and administer unit-price work, the contractors who bid and bill on it, and the owners and municipalities who pay for it.</p></div></details>
+      </div>
+
+      <h2>Related</h2>
+      <p><a class="link-arrow" href="/solutions/civil-engineers/">CA-Vault for Civil Engineers</a><br><a class="link-arrow" href="/resources/glossary/">Glossary of contract administration terms</a><br><a class="link-arrow" href="/how-it-works/">How CA-Vault works, stage by stage</a></p>
+    </article>
+    <aside class="toc" aria-label="On this page"><p>On this page</p><a href="#what">What is a unit-price contract?</a><a href="#hard">Why administration is hard</a><a href="#parts">The moving parts</a><a href="#workflow">The CA-Vault workflow</a><a href="#mistakes">Common mistakes</a><a href="#faq">FAQ</a></aside>
+  </div>
+</section>
+{{cta:Bring your longest schedule of prices.|We will show it tendered, compared, billed and certified without a spreadsheet.|Book a Free Demo}}

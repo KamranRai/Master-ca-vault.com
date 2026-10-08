@@ -1,0 +1,18 @@
+# ContractComplete -> CA-Vault 301 map (Netlify / Cloudflare Pages syntax).
+# Apply the same map as domain-level 301s on contractcomplete.com. Review against Search Console + backlink data before launch.
+https://www.contractcomplete.com/                      https://www.ca-vault.com/                                    301
+https://www.contractcomplete.com/bidding/              https://www.ca-vault.com/platform/bid-management/            301
+https://www.contractcomplete.com/budgeting/            https://www.ca-vault.com/platform/project-budgets/           301
+https://www.contractcomplete.com/projectmanagement/    https://www.ca-vault.com/platform/contract-administration/   301
+https://www.contractcomplete.com/progressbilling/      https://www.ca-vault.com/platform/progress-billing/          301
+https://www.contractcomplete.com/contractors/          https://www.ca-vault.com/solutions/contractors/              301
+https://www.contractcomplete.com/general-contractors/  https://www.ca-vault.com/solutions/contractors/              301
+https://www.contractcomplete.com/testimonials/         https://www.ca-vault.com/customers/                          301
+https://www.contractcomplete.com/videos/               https://www.ca-vault.com/product-tour/                       301
+https://www.contractcomplete.com/pricing/              https://www.ca-vault.com/pricing/                            301
+https://www.contractcomplete.com/faq/                  https://www.ca-vault.com/pricing/                            301
+https://www.contractcomplete.com/about/                https://www.ca-vault.com/about/                              301
+https://www.contractcomplete.com/terms-of-service/     https://www.ca-vault.com/legal/terms/                        301
+https://www.contractcomplete.com/docs/*                https://www.ca-vault.com/resources/help-center/              301
+https://www.contractcomplete.com/blog/                 https://www.ca-vault.com/resources/blog/                     301
+# Blog posts: audit individually (keep / rewrite / redirect / remove / consolidate) - do not blanket-redirect.

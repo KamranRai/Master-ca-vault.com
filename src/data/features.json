@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "bid-management", "num": "01", "label": "Bid &amp; Tender Management",
+    "title": "Bid Management Software for Construction | CA-Vault",
+    "desc": "Collect compliant bids, manage tender documents and get a line-by-line bid comparison the moment the tender closes. Built for unit-price construction contracts.",
+    "short": "Collect compliant bids and get the comparison without rebuilding spreadsheets by hand.",
+    "h1": "Construction Bid Management Without the Spreadsheet Shuffle",
+    "lead": "Collect bids, manage tender documents, enforce submission requirements and generate bid comparisons without manually rebuilding your analysis.",
+    "cta": "See Bid Management in Action",
+    "shot": "bids", "shotCaption": "Every bid, line by line, against the average bid price. Lowest and highest prices are highlighted for you.",
+    "answerTitle": "What is construction bid management software?",
+    "answer": "Construction bid management software runs a tender in one place: it distributes the tender documents, collects each bidder&rsquo;s prices against the same schedule of prices, and compares the bids once the tender closes. In CA-Vault the comparison is produced from the submitted bids themselves, so nobody re-keys numbers from PDFs into Excel.",
+    "problem": "On a unit-price tender, every bidder prices the same list of items. When those bids arrive as PDFs by email, someone has to type every unit price into a spreadsheet, check the arithmetic and chase incomplete submissions. It is slow, and it is exactly where errors creep in.",
+    "oldFlow": ["PDF", "Email", "Excel", "Manual entry", "Errors", "Hours of work"],
+    "newFlow": ["Tender", "Bidder", "Submission", "Generated comparison", "Decision"],
+    "capsTitle": "See every bid side by side",
+    "caps": [
+      { "t": "One schedule of prices for every bidder", "d": "Bidders price the same items, quantities and units, so bids are comparable from the first line to the last." },
+      { "t": "Submission requirements, enforced", "d": "Bidders complete the required information before they can submit, which cuts down on non-compliant bids." },
+      { "t": "Comparison ready at tender close", "d": "Review unit prices and totals line by line, with section subtotals, against the average bid or your budgeted price." },
+      { "t": "PDF and Excel exports", "d": "Share the bid review with the owner or keep it on file without rebuilding it in another tool." }
+    ],
+    "stepsTitle": "From tender call to recommendation",
+    "steps": [
+      { "t": "Build the tender", "d": "Set up the schedule of prices and attach drawings, specifications and other tender documents." },
+      { "t": "Invite bidders", "d": "Bidders receive the documents and price the schedule online. Contractors are invited free of charge." },
+      { "t": "Close and compare", "d": "When the tender closes, the bid comparison is generated from the submitted prices." },
+      { "t": "Award and carry forward", "d": "The awarded prices become the contract&rsquo;s schedule of prices, ready for administration." }
+    ],
+    "quote": "madigan",
+    "related": ["contract-administration", "project-budgets", "payment-certification"],
+    "faq": [
+      { "q": "Can CA-Vault compare bids automatically?", "a": "Yes. Because every bidder prices the same schedule of prices inside CA-Vault, the line-by-line comparison is generated from the submissions when the tender closes. You can review it on screen or export it to PDF or Excel." },
+      { "q": "Do bidders have to pay to submit a bid?", "a": "No. Contractor invitations are unlimited and free for contractors on the Tender plan and above." },
+      { "q": "Is CA-Vault only for unit-price tenders?", "a": "Unit-price contracts are where CA-Vault is strongest, because the whole platform is organised around the schedule of prices. Ask us in a demo how your other contract types would be set up." },
+      { "q": "What happens to the bid prices after award?", "a": "The awarded bid becomes the starting point for contract administration, so quantities, unit prices and totals do not need to be entered again for progress billing and payment certification." }
+    ]
+  },
+  {
+    "slug": "contract-administration", "num": "02", "label": "Contract Administration",
+    "title": "Construction Contract Administration Software | CA-Vault",
+    "desc": "Keep the contract, its schedule of prices, documents, RFIs, changes and payments in one connected project record shared by owner, consultant and contractor.",
+    "short": "Keep contract information, records and workflows organised throughout the project.",
+    "h1": "Construction Contract Administration in One Connected Record",
+    "lead": "Administer the contract from award to closeout with the schedule of prices, documents, RFIs, changes and payments all tied to the same record.",
+    "cta": "See Contract Administration in Action",
+    "shot": "contracts", "shotCaption": "Every contract with its total value, remaining value, invoiceable amount and progress at a glance.",
+    "answerTitle": "What is construction contract administration software?",
+    "answer": "Construction contract administration software manages what happens after a contract is awarded: the records, questions, changes, inspections, progress and payments that flow between the owner, the consultant and the contractor. CA-Vault keeps those workflows attached to one contract so each party works from the same information.",
+    "problem": "Most contract administration is spread across inboxes, spreadsheets and shared folders. Each party keeps its own version, and reconciling them takes time nobody budgeted for.",
+    "oldFlow": ["Inbox", "Spreadsheet", "Shared folder", "Phone call", "Re-entry", "Two versions"],
+    "newFlow": ["Contract", "Schedule of prices", "Workflows", "Approvals", "One record"],
+    "capsTitle": "Three parties. One contract. One record.",
+    "caps": [
+      { "t": "A contract lifecycle you can see", "d": "Each contract moves through clear stages: Draft, Tendering, Post-tender, In Progress and Completed." },
+      { "t": "Everything hangs off the contract", "d": "Schedule of prices, provisional items, documents, RFIs, submittals, change orders, progress reports and invoices sit in one place." },
+      { "t": "ActionBox for what needs you", "d": "Items waiting on your review land in your ActionBox, with reminders, so approvals do not stall in an inbox." },
+      { "t": "Stakeholders included", "d": "Bring the contractor, owner and sub-consultants into the same contract rather than forwarding files between systems." }
+    ],
+    "stepsTitle": "How a contract moves through CA-Vault",
+    "steps": [
+      { "t": "Award", "d": "The awarded bid, or a contract you enter directly, sets the schedule of prices." },
+      { "t": "Administer", "d": "RFIs, submittals, documents and inspections are logged against the contract as work proceeds." },
+      { "t": "Change", "d": "Proposed changes are priced, approved and signed, and the contract value updates with them." },
+      { "t": "Certify and close", "d": "Progress is invoiced and certified against the same line items until the contract is complete." }
+    ],
+    "quote": "patitucci",
+    "related": ["document-control", "change-orders", "payment-certification"],
+    "faq": [
+      { "q": "Who uses CA-Vault on a contract?", "a": "Typically the consultant or owner&rsquo;s contract administrator, the contractor, and the owner. Each sees the parts of the contract record relevant to their role." },
+      { "q": "Does the contractor need a paid account?", "a": "Contractor invitations are unlimited and free for contractors on paid plans. Each plan includes a set number of users for your own team, with no per-seat add-ons." },
+      { "q": "Can I start with a contract that is already awarded?", "a": "Yes. You do not have to tender through CA-Vault to administer a contract in it. Ask us in a demo how an in-flight contract would be brought across." },
+      { "q": "Is there a mobile app?", "a": "ContractComplete shipped iOS and Android apps for field access to contract documents and approvals. Current CA-Vault app availability is confirmed during your demo." }
+    ]
+  },
+  {
+    "slug": "document-control", "num": "03", "label": "Document Control",
+    "title": "Construction Document Control Software | CA-Vault",
+    "desc": "Centralise drawings, specifications, contracts and project documents against the contract they belong to, with access for the office and the field.",
+    "short": "Centralise drawings, specifications, contracts and project documents.",
+    "h1": "Construction Document Control Tied to the Contract",
+    "lead": "Keep drawings, specifications, contracts and supporting documents organised by contract, so the office and the field open the same file.",
+    "cta": "See Document Control in Action",
+    "shot": "", "shotNeeded": "A current CA-Vault screenshot of the contract Documents tab showing folders or document lists (2000px wide, WebP).",
+    "answerTitle": "What is construction document control?",
+    "answer": "Construction document control is the practice of keeping one current, traceable set of project documents: drawings, specifications, the contract, addenda and the records created during administration. CA-Vault stores those documents against the contract, next to the RFIs, changes and payments that reference them.",
+    "problem": "Shared folders hold files, but they do not know which contract, RFI or change order a file belongs to. People end up asking which version is current, or working from the wrong one.",
+    "oldFlow": ["Shared drive", "Email attachment", "Local copy", "Which version?", "Rework"],
+    "newFlow": ["Contract", "Documents tab", "Linked records", "Office and field", "One current set"],
+    "capsTitle": "The project record, not another folder",
+    "caps": [
+      { "t": "Organised by contract", "d": "Documents live with the contract they govern, alongside its schedule of prices and workflows." },
+      { "t": "Tender documents carried forward", "d": "The documents issued at tender stay with the contract after award." },
+      { "t": "Generated records kept together", "d": "Change orders, payment certificates and invoices produced in CA-Vault are stored with the contract as PDFs." },
+      { "t": "Access from site", "d": "Field staff can open specifications and drawings for the contract they are standing on." }
+    ],
+    "stepsTitle": "How documents stay connected",
+    "steps": [
+      { "t": "Upload at tender", "d": "Attach drawings, specifications and other tender documents when you build the tender." },
+      { "t": "Carry through award", "d": "The document set stays with the contract as it moves into administration." },
+      { "t": "Add as you administer", "d": "RFI responses, submittals, signed change orders and certificates accumulate in the same record." },
+      { "t": "Hand over at closeout", "d": "The contract ends with a complete record rather than a folder to tidy up." }
+    ],
+    "quote": "torres",
+    "related": ["rfi-management", "submittals", "contract-administration"],
+    "faq": [
+      { "q": "What kinds of documents can be stored?", "a": "Drawings, specifications, contracts and other project documents, plus the PDFs CA-Vault generates for change orders, invoices and payment certificates." },
+      { "q": "Can contractors access the documents?", "a": "Yes. Contractors invited to a contract can reach the documents shared on it, including from the field." },
+      { "q": "Is there a limit on documents?", "a": "Plans are priced by users and locations rather than by document. Ask us in a demo about storage limits." },
+      { "q": "Does CA-Vault replace our drawing management system?", "a": "CA-Vault is built for contract administration records, not design authoring or drawing revision management. Ask us in a demo how it would sit beside the tools you already use." }
+    ]
+  },
+  {
+    "slug": "rfi-management", "num": "04", "label": "RFI Management",
+    "title": "RFI Management Software for Construction | CA-Vault",
+    "desc": "Contractors raise RFIs, consultants respond, and every question, markup and answer stays on the contract record with due dates and response tracking.",
+    "short": "Keep questions, responses and supporting documentation connected.",
+    "h1": "RFI Management That Keeps Every Answer on the Record",
+    "lead": "Contractors raise the RFI. You respond. CA-Vault keeps the question, the markup, the answer and the dates together on the contract.",
+    "cta": "See RFIs in Action",
+    "shot": "rfis", "shotCaption": "The RFI log with submitted, due and response dates, and response-time analytics for the contract.",
+    "answerTitle": "What is an RFI in construction?",
+    "answer": "A request for information (RFI) is a formal question from the contractor to the consultant or owner asking for clarification of the drawings, specifications or contract. RFI management software logs each request, routes it for a response and keeps the answer as part of the project record.",
+    "problem": "RFIs sent by email are easy to miss and hard to trace. Months later, nobody can find which answer was given, when, or by whom.",
+    "oldFlow": ["Email thread", "Attachment", "Forward", "Lost reply", "Dispute"],
+    "newFlow": ["Contractor raises RFI", "Stakeholders notified", "Response", "Tracked on contract"],
+    "capsTitle": "Questions in, answers out, nothing lost",
+    "caps": [
+      { "t": "Formal requests, quickly", "d": "Contractors generate a formal RFI in the platform instead of composing one from scratch." },
+      { "t": "Images and markup", "d": "Upload and mark up images so the question is clear before it is sent." },
+      { "t": "Clear status", "d": "Each RFI is Draft, Submitted, Responded or Reopened, with submitted, due and response dates." },
+      { "t": "Response analytics", "d": "See total RFIs, the reopen rate and average response time for the contract." }
+    ],
+    "stepsTitle": "The RFI workflow",
+    "steps": [
+      { "t": "Raise", "d": "The contractor writes the request and attaches marked-up images." },
+      { "t": "Route", "d": "The RFI is sent to the stakeholders who need to respond." },
+      { "t": "Respond", "d": "The consultant answers. The response is tracked and visible on the contract." },
+      { "t": "Reopen if needed", "d": "If the answer does not resolve it, the RFI is reopened rather than restarted." }
+    ],
+    "quote": "",
+    "related": ["submittals", "change-orders", "document-control"],
+    "faq": [
+      { "q": "Who creates RFIs in CA-Vault?", "a": "Contractors generate the RFI and the consultant or owner&rsquo;s representative responds. Both sides see the same record." },
+      { "q": "Can an RFI include photos or drawings?", "a": "Yes. Contractors can upload images and mark them up so they are included in the RFI." },
+      { "q": "How do I know an RFI is waiting for me?", "a": "Items that need your response appear in your ActionBox, so open RFIs do not depend on someone noticing an email." },
+      { "q": "Can an RFI lead to a change order?", "a": "An RFI answer often triggers a change. In CA-Vault both records live on the same contract, so the trail from question to change is easy to follow." }
+    ]
+  },
+  {
+    "slug": "submittals", "num": "05", "label": "Submittal Management",
+    "title": "Construction Submittal Management Software | CA-Vault",
+    "desc": "Receive contractor submittals, forward them to sub-consultants for review and keep every response on the contract record so reviews do not hold up the schedule.",
+    "short": "Receive submittals, route them for review and keep the responses together.",
+    "h1": "Submittal Management Without the Forwarding Chain",
+    "lead": "Receive submittals in one place, send them to the right reviewer and keep the outcome on the contract record.",
+    "cta": "See Submittals in Action",
+    "shot": "", "shotNeeded": "A current CA-Vault screenshot of the contract Submittals tab showing a submittal log with statuses (2000px wide, WebP).",
+    "answerTitle": "What is a construction submittal?",
+    "answer": "A submittal is information the contractor provides for the consultant&rsquo;s review before work proceeds, such as shop drawings, product data or samples. Submittal management software logs what was received, who is reviewing it and what was decided.",
+    "problem": "Submittals often need more than one reviewer. Forwarding them by email makes it hard to know who has the file, and a slow review quietly becomes a schedule delay.",
+    "oldFlow": ["Email in", "Forward", "Wait", "Chase", "Reply-all", "Delay"],
+    "newFlow": ["Contractor submits", "Consultant receives", "Sub-consultant review", "Response on record"],
+    "capsTitle": "Keep reviews moving",
+    "caps": [
+      { "t": "Centralised log", "d": "Every submittal for the contract is in one list rather than across several inboxes." },
+      { "t": "Forward for review", "d": "Send a submittal on to sub-consultants for their review without leaving the record." },
+      { "t": "Linked to the contract", "d": "Submittals sit beside the RFIs, documents and changes they relate to." },
+      { "t": "Visible to both sides", "d": "The contractor can see where a submittal stands without phoning to ask." }
+    ],
+    "stepsTitle": "The submittal workflow",
+    "steps": [
+      { "t": "Submit", "d": "The contractor uploads the submittal against the contract." },
+      { "t": "Receive", "d": "The consultant is notified and the item is logged." },
+      { "t": "Review", "d": "The consultant reviews it, or forwards it to a sub-consultant." },
+      { "t": "Respond", "d": "The outcome is recorded and returned to the contractor." }
+    ],
+    "quote": "",
+    "related": ["rfi-management", "document-control", "contract-administration"],
+    "faq": [
+      { "q": "Can submittals be forwarded to sub-consultants?", "a": "Yes. Submittals can be forwarded to sub-consultants for their review while the record stays on the contract." },
+      { "q": "Are submittals available to contractors too?", "a": "Yes. Contractors submit through the platform and can follow the status of each item." },
+      { "q": "How are submittals different from RFIs?", "a": "An RFI asks a question about the contract documents. A submittal provides information for review before work proceeds. CA-Vault keeps them as separate logs on the same contract." },
+      { "q": "Where do reviewed submittals end up?", "a": "They remain on the contract as part of the project record through to closeout." }
+    ]
+  },
+  {
+    "slug": "change-orders", "num": "06", "label": "Change Order Management",
+    "title": "Construction Change Order Management Software | CA-Vault",
+    "desc": "Manage change orders without losing the paper trail. Track proposed changes from contractor quote through approval, signature and updated contract value.",
+    "short": "Track proposed changes through approval, signature and final documentation.",
+    "h1": "Manage Change Orders Without Losing the Paper Trail",
+    "lead": "Take a proposed change from request and contractor quote through approval and signature, with the contract value updated as soon as it is signed.",
+    "cta": "See Change Orders in Action",
+    "shot": "changes", "shotCaption": "Proposed changes on the left are grouped into change orders on the right, each with its value and signature status.",
+    "answerTitle": "What is change order management?",
+    "answer": "Change order management is the process of recording a proposed change to the contract, pricing it, getting it approved and signed, and adjusting the contract value. CA-Vault handles proposed changes and change orders against the contract&rsquo;s schedule of prices, so an approved change flows into progress billing.",
+    "problem": "Changes are where contracts drift. When they are tracked in spreadsheets and approved by email, the signed value, the reason and the supporting evidence end up in three different places.",
+    "oldFlow": ["Site conversation", "Email quote", "Spreadsheet log", "Paper signature", "Missing evidence"],
+    "newFlow": ["Proposed change", "Contractor quote", "Change order", "Signatures", "Contract updated"],
+    "capsTitle": "From proposed change to signed order",
+    "caps": [
+      { "t": "Proposed changes first", "d": "Record a proposed change and request a quote. Items show as pending until the contractor prices them." },
+      { "t": "Group into a change order", "d": "Select one or more priced proposed changes and issue them as a single change order." },
+      { "t": "Signatures tracked", "d": "See who has signed and who has not. Approve and sign from the field on a mobile device." },
+      { "t": "PDF and evidence", "d": "Download the change order as a PDF, with its supporting evidence, whenever it is needed." }
+    ],
+    "stepsTitle": "The change workflow",
+    "steps": [
+      { "t": "Propose", "d": "A change is proposed by the consultant or contractor, with a description of the work." },
+      { "t": "Quote", "d": "The contractor prices the change, as an addition or a credit." },
+      { "t": "Issue", "d": "Priced changes are combined into a change order and sent for signature." },
+      { "t": "Sign and apply", "d": "Once signed, the change order is complete and its value is part of the contract." }
+    ],
+    "quote": "",
+    "related": ["contract-administration", "progress-billing", "rfi-management"],
+    "faq": [
+      { "q": "What is the difference between a proposed change and a change order?", "a": "A proposed change is a change under discussion that still needs pricing or agreement. A change order is the formal, signed instruction that alters the contract. In CA-Vault, proposed changes are grouped into change orders." },
+      { "q": "Can a change order be a credit?", "a": "Yes. Change orders can add to or deduct from the contract value." },
+      { "q": "Can change orders be signed electronically?", "a": "Signatures are tracked in the platform and documents can be approved and signed on a mobile device. Ask us in a demo about your signing requirements." },
+      { "q": "Do approved changes flow into billing?", "a": "Yes. Because the change is recorded against the contract, the contractor can invoice against it in the same progress billing workflow." }
+    ]
+  },
+  {
+    "slug": "site-inspections", "num": "07", "label": "Site Inspections",
+    "title": "Construction Site Inspection Software | CA-Vault",
+    "desc": "Capture site inspection information and supporting evidence from the field and keep it with the contract it relates to.",
+    "short": "Capture inspection information and supporting evidence from the field.",
+    "h1": "Site Inspections Captured in the Field, Kept on the Record",
+    "lead": "Record what you saw on site, attach the evidence and keep the inspection with the contract instead of in a notebook or camera roll.",
+    "cta": "See Site Inspections in Action",
+    "shot": "", "shotNeeded": "A current CA-Vault screenshot of a site inspection report or the inspections list, ideally one desktop and one mobile capture (WebP).",
+    "answerTitle": "What is site inspection software?",
+    "answer": "Site inspection software lets the person on site record observations, photos and deficiencies digitally and turn them into a report. In CA-Vault the inspection is stored against the contract, so it sits beside the progress, changes and payments it supports.",
+    "problem": "Inspection notes written on paper have to be typed up back at the office, photos are matched to notes from memory, and the report arrives days after the visit.",
+    "oldFlow": ["Paper form", "Phone photos", "Type it up", "Email PDF", "Filed somewhere"],
+    "newFlow": ["On site", "Record observations", "Attach evidence", "Report on contract"],
+    "capsTitle": "Field evidence that supports the contract",
+    "caps": [
+      { "t": "Capture on site", "d": "Record inspection information from the field rather than transcribing it later." },
+      { "t": "Evidence attached", "d": "Keep photos and supporting evidence with the inspection they belong to." },
+      { "t": "Tied to the contract", "d": "Inspections are part of the same record as progress reports and payment certificates." },
+      { "t": "Available to the team", "d": "The office sees what was recorded without waiting for a write-up." }
+    ],
+    "stepsTitle": "The inspection workflow",
+    "steps": [
+      { "t": "Visit", "d": "Open the contract on site." },
+      { "t": "Record", "d": "Capture observations and supporting evidence." },
+      { "t": "Report", "d": "The inspection is saved to the contract record." },
+      { "t": "Follow up", "d": "Use the record to support progress, deficiencies and payment decisions." }
+    ],
+    "quote": "",
+    "related": ["progress-reporting", "payment-certification", "document-control"],
+    "faq": [
+      { "q": "Is the site inspections module available now?", "a": "Site inspections is the newest module in the platform. We will confirm current availability and what it covers during your demo." },
+      { "q": "Can inspections be completed on a phone?", "a": "Inspections are designed to be captured in the field. Device support is confirmed during your demo." },
+      { "q": "Where are inspection records stored?", "a": "Against the contract, with the rest of the project record." },
+      { "q": "Can inspections support payment certification?", "a": "Yes. Keeping inspection evidence on the same contract gives the certifier something to refer to when reviewing progress claims." }
+    ]
+  },
+  {
+    "slug": "progress-reporting", "num": "08", "label": "Progress Reporting",
+    "title": "Construction Progress Reporting Software | CA-Vault",
+    "desc": "Track quantities and progress across every contract. See total value, remaining work and what can be invoiced without assembling a status spreadsheet.",
+    "short": "Keep project progress and administrative records visible across every contract.",
+    "h1": "Construction Progress Reporting Across Every Contract",
+    "lead": "Know where each contract stands: what has been completed, what remains and what is ready to invoice, without asking someone to assemble a report.",
+    "cta": "See Progress Reporting in Action",
+    "shot": "dashboard", "shotCaption": "The dashboard summarises projects, outstanding work, invoiceable amounts and items waiting on other people.",
+    "answerTitle": "What is construction progress reporting?",
+    "answer": "Construction progress reporting records how much of each contract item has been completed in a period. On a unit-price contract that means quantities installed against the schedule of prices. CA-Vault uses those quantities to show progress and to feed progress billing.",
+    "problem": "Progress is usually measured on site, typed into a spreadsheet, then typed again into an invoice. Portfolio status means opening every spreadsheet in turn.",
+    "oldFlow": ["Site measure", "Spreadsheet", "Re-key", "Status email", "Out of date"],
+    "newFlow": ["Quantities recorded", "Progress report", "Dashboard", "Ready to invoice"],
+    "capsTitle": "Progress you can read at a glance",
+    "caps": [
+      { "t": "Quantities against line items", "d": "Progress is recorded against the same items, quantities and unit prices as the contract." },
+      { "t": "Progress per contract", "d": "Each contract shows total value, remaining value, invoiceable amount and a progress bar." },
+      { "t": "Company-wide view", "d": "The dashboard rolls up contract value, outstanding work and approved changes across projects." },
+      { "t": "What is waiting on others", "d": "See change orders awaiting approval and RFIs awaiting response in one place." }
+    ],
+    "stepsTitle": "From site quantities to status",
+    "steps": [
+      { "t": "Record", "d": "Enter completed quantities for the period against each item." },
+      { "t": "Report", "d": "The progress report is saved to the contract." },
+      { "t": "Review", "d": "Contract and company views update to show progress and remaining work." },
+      { "t": "Bill", "d": "The same quantities carry into the progress invoice." }
+    ],
+    "quote": "ross",
+    "related": ["progress-billing", "site-inspections", "project-budgets"],
+    "faq": [
+      { "q": "Can I see progress across all my contracts?", "a": "Yes. The contracts list and dashboard show progress, remaining value and invoiceable amounts across your contracts." },
+      { "q": "Is progress tracked by quantity or by percentage?", "a": "Progress is recorded against contract line items, where quantity and percentage complete are shown together." },
+      { "q": "Does progress reporting connect to invoicing?", "a": "Yes. Completed quantities feed the progress invoice, so they are not entered twice." },
+      { "q": "Who records progress?", "a": "Typically the contractor records completed work and the consultant reviews it. We will show both sides in a demo." }
+    ]
+  },
+  {
+    "slug": "progress-billing", "num": "09", "label": "Progress Billing",
+    "title": "Construction Progress Billing Software | CA-Vault",
+    "desc": "Contractors build progress invoices from contract line items and completed quantities, with holdback and tax applied, in one consistent format.",
+    "short": "Build progress invoices from contract quantities, with holdback and tax applied.",
+    "h1": "Progress Billing Built From the Contract, Not a Spreadsheet",
+    "lead": "Create progress invoices from the contract&rsquo;s own line items and completed quantities, with holdback and taxes calculated for you.",
+    "cta": "See Progress Billing in Action",
+    "shot": "invoice", "shotCaption": "The invoice editor: holdback and tax on the left, the generated invoice with work to date and this period on the right.",
+    "answerTitle": "What is progress billing in construction?",
+    "answer": "Progress billing is invoicing for the portion of the contract completed in a period, rather than at the end of the job. On a unit-price contract each invoice is the quantities completed this period multiplied by their unit prices, less holdback, plus tax. CA-Vault builds that invoice from the contract record.",
+    "problem": "Spreadsheet invoices vary from contractor to contractor and from month to month. One wrong formula or one stale quantity means the invoice is rejected and payment slips.",
+    "oldFlow": ["Excel template", "Copy last month", "Fix formulas", "Email PDF", "Rejected", "Resubmit"],
+    "newFlow": ["Completed quantities", "Invoice generated", "Holdback and tax", "Sent for certification"],
+    "capsTitle": "Invoices that match the contract",
+    "caps": [
+      { "t": "Built from line items", "d": "Each invoice shows contract quantity and price, work invoiced to date and work completed this invoice." },
+      { "t": "Holdback and tax handled", "d": "Add holdback amounts, taxes and fees. Net value is calculated from the gross amount." },
+      { "t": "PDF with cover page", "d": "Assemble the cover sheet, line items and supporting PDFs into one invoice document." },
+      { "t": "Straight to the certifier", "d": "Submitted invoices go to the consultant&rsquo;s ActionBox, with reminders, so they are not missed." }
+    ],
+    "stepsTitle": "The billing workflow",
+    "steps": [
+      { "t": "Enter quantities", "d": "Record what was completed in the work period." },
+      { "t": "Review the invoice", "d": "Check gross amount, holdback, tax and net value." },
+      { "t": "Send", "d": "Submit the invoice to the consultant for review." },
+      { "t": "Get certified", "d": "The consultant certifies payment against the same figures." }
+    ],
+    "quote": "garon",
+    "related": ["payment-certification", "progress-reporting", "change-orders"],
+    "faq": [
+      { "q": "Does CA-Vault calculate holdback?", "a": "Yes. Holdback amounts can be added to an invoice and are deducted from the gross amount, and taxes and fees are added to reach the net value." },
+      { "q": "Can change orders be invoiced?", "a": "Approved change orders are part of the contract record and can be billed in the same workflow." },
+      { "q": "What does the invoice look like?", "a": "A consistent, itemised PDF showing contract values, work invoiced to date and work completed this invoice for each line." },
+      { "q": "Does the consultant have to re-enter our invoice?", "a": "No. When both parties work in the platform, the consultant certifies against the invoice the contractor submitted rather than re-keying it." }
+    ]
+  },
+  {
+    "slug": "payment-certification", "num": "10", "label": "Payment Certification",
+    "title": "Construction Payment Certification Software | CA-Vault",
+    "desc": "Review contractor invoices and issue payment certificates from the same quantities and unit prices, without re-entering the numbers.",
+    "short": "Review contractor invoices and issue payment certificates from the same figures.",
+    "h1": "Payment Certification Without the Double Entry",
+    "lead": "Review the contractor&rsquo;s progress invoice against the contract and issue the payment certificate from the same quantities and unit prices.",
+    "cta": "See Payment Certification",
+    "shot": "invoice", "shotCaption": "Contract values, work invoiced to date and work completed this invoice, line by line, ready for review.",
+    "answerTitle": "What is a payment certificate?",
+    "answer": "A payment certificate is the document in which the consultant or contract administrator confirms the amount the owner should pay the contractor for work completed in a period. It is based on the contractor&rsquo;s progress invoice, checked against the contract and the work observed on site.",
+    "problem": "Certifying payment usually means re-entering the contractor&rsquo;s invoice into your own spreadsheet to check it. The same numbers are typed twice, by two organisations, every month.",
+    "oldFlow": ["Invoice PDF", "Re-enter in Excel", "Check totals", "Query by email", "Revise", "Certificate"],
+    "newFlow": ["Invoice submitted", "Review line items", "Adjust if needed", "Certificate issued"],
+    "capsTitle": "Certify from the contract record",
+    "caps": [
+      { "t": "Invoices arrive in your ActionBox", "d": "Submitted invoices appear in your ActionBox, by email and in the app, with daily reminders." },
+      { "t": "Review against the contract", "d": "See each line&rsquo;s contract quantity, amount to date and amount this period on one page." },
+      { "t": "Revise and reissue", "d": "If something needs correcting, changes are made and the document is reissued rather than rebuilt." },
+      { "t": "Certificate generated", "d": "The payment certificate is produced from the reviewed figures and kept on the contract." }
+    ],
+    "stepsTitle": "The certification workflow",
+    "steps": [
+      { "t": "Receive", "d": "The contractor&rsquo;s progress invoice arrives for review." },
+      { "t": "Review", "d": "Check quantities and amounts against the contract and site records." },
+      { "t": "Certify", "d": "Issue the payment certificate." },
+      { "t": "Record", "d": "The certificate stays on the contract and progress updates." }
+    ],
+    "quote": "collin",
+    "related": ["progress-billing", "site-inspections", "contract-administration"],
+    "faq": [
+      { "q": "Who issues the payment certificate?", "a": "Usually the consultant or contract administrator acting for the owner. CA-Vault supports that review and generates the certificate." },
+      { "q": "Do I have to re-enter the contractor&rsquo;s invoice?", "a": "No. When the contractor invoices in the platform, you review the same line items they submitted." },
+      { "q": "What if I disagree with a quantity?", "a": "The invoice can be revised and reissued, so the certificate reflects what was agreed." },
+      { "q": "How do I avoid missing an invoice?", "a": "Invoices waiting on you sit in your ActionBox and trigger reminders until they are dealt with." }
+    ]
+  },
+  {
+    "slug": "project-budgets", "num": "11", "label": "Project Budgets",
+    "title": "Construction Project Budgeting Software | CA-Vault",
+    "desc": "Build a project budget on the same schedule-of-prices structure you tender and administer with, and compare bids against your budgeted price.",
+    "short": "Build the budget on the same structure you tender and administer with.",
+    "h1": "Project Budgets Built on the Schedule of Prices",
+    "lead": "Start the project with a budget structured the same way as the tender, then compare bids against your budgeted price.",
+    "cta": "See Project Budgets in Action",
+    "shot": "bids", "shotCaption": "Switch the comparison baseline between the average bid and your budgeted price.",
+    "answerTitle": "What is a construction project budget?",
+    "answer": "A construction project budget is the owner&rsquo;s or consultant&rsquo;s estimate of what the work should cost, itemised before tender. On a unit-price project it is a schedule of prices with estimated quantities and unit rates. CA-Vault lets you carry that structure into the tender and compare bids against it.",
+    "problem": "Budgets are often built in a spreadsheet that never meets the tender. When bids come in, comparing them to the estimate is another manual exercise.",
+    "oldFlow": ["Estimate spreadsheet", "Separate tender form", "Bids arrive", "Manual comparison"],
+    "newFlow": ["Budget", "Tender", "Bids", "Compare to budgeted price"],
+    "capsTitle": "Budget, tender and contract on one structure",
+    "caps": [
+      { "t": "Itemised budget", "d": "Set out items, quantities, units and estimated unit prices." },
+      { "t": "Budgeted price baseline", "d": "In the bid comparison, switch between the average bid and your budgeted price." },
+      { "t": "Spot outliers", "d": "Prices above and below the baseline are highlighted line by line." },
+      { "t": "Carry into administration", "d": "The same structure continues into the awarded contract." }
+    ],
+    "stepsTitle": "From estimate to award",
+    "steps": [
+      { "t": "Estimate", "d": "Build the budget as a schedule of prices." },
+      { "t": "Tender", "d": "Issue the same schedule to bidders." },
+      { "t": "Compare", "d": "Review bids against the budgeted price." },
+      { "t": "Award", "d": "Move the awarded prices into the contract." }
+    ],
+    "quote": "",
+    "related": ["bid-management", "progress-reporting", "contract-administration"],
+    "faq": [
+      { "q": "Can I compare bids against my own estimate?", "a": "Yes. The bid comparison can use your budgeted price as the baseline instead of the average bid." },
+      { "q": "Is the budget visible to bidders?", "a": "Ask us in a demo how budget visibility is controlled during a tender. We will show exactly what a bidder sees." },
+      { "q": "Does the budget have to match the tender structure?", "a": "Using the same structure is what makes the line-by-line comparison possible." },
+      { "q": "Can I reuse pricing from past projects?", "a": "Ask us in a demo about using historical pricing when building a new budget." }
+    ]
+  }
+]

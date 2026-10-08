@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "civil-engineers", "num": "S1", "label": "Civil Engineers", "plural": "civil engineers",
+    "title": "Construction Administration Software for Civil Engineers | CA-Vault",
+    "desc": "Tender, compare bids, administer unit-price contracts and certify payment in one record. Construction administration software built for civil engineering teams.",
+    "h1": "Construction Administration Software for Civil Engineers",
+    "job": "Spend less time administering the contract.",
+    "lead": "You designed the work. CA-Vault takes the administrative load of tendering it, comparing the bids and certifying payment on a unit-price contract.",
+    "party": "Consultant / contract administrator", "worksIn": "Bids, RFIs, changes, payment certificates",
+    "cta": "See CA-Vault for Civil Engineering Teams", "ctaTitle": "See a civil tender run from call to certificate.",
+    "painsTitle": "Engineering hours spent on data entry",
+    "pains": [
+      { "t": "Bid review by retyping", "d": "Hundreds of unit prices from several bidders, keyed into a spreadsheet before you can even start the analysis." },
+      { "t": "Monthly certificate rebuilds", "d": "Re-entering the contractor&rsquo;s invoice to check quantities you already have on record." },
+      { "t": "Answers buried in email", "d": "RFI responses and change approvals that are hard to find when a claim arrives a year later." }
+    ],
+    "workTitle": "A unit-price contract, start to finish",
+    "workflow": [
+      { "t": "Tender", "d": "Issue the schedule of prices and tender documents to bidders." },
+      { "t": "Compare and recommend", "d": "Review the generated bid comparison and export it for the owner." },
+      { "t": "Administer", "d": "Respond to RFIs, review submittals and manage changes on the contract." },
+      { "t": "Certify", "d": "Review progress invoices and issue payment certificates." }
+    ],
+    "shot": "bids", "shotCaption": "A civil works tender: bonding, site preparation, dust suppression and survey items compared across four bidders.",
+    "outcomes": ["Bid comparisons generated at tender close", "Payment certificates produced from the contractor&rsquo;s own invoice", "One traceable record of RFIs, changes and approvals"],
+    "features": ["bid-management", "payment-certification", "change-orders", "rfi-management"],
+    "proofTitle": "Bids that arrive compliant and comparable",
+    "proofText": "Engineering and consulting teams have used the platform to stop collecting PDF bids by email. This is how one bidding manager described the difference.",
+    "quote": "hosgood",
+    "faq": [
+      { "q": "Is CA-Vault suited to unit-price civil contracts?", "a": "Yes. The platform is organised around the schedule of prices: items, quantities, units and unit rates. That structure runs from tender through to payment certification." },
+      { "q": "Can we export the bid comparison for our client?", "a": "Yes. The bid review can be exported to PDF or Excel." },
+      { "q": "Do contractors need to buy CA-Vault to bid?", "a": "No. Contractor invitations are unlimited and free for contractors on the Tender plan and above." }
+    ]
+  },
+  {
+    "slug": "landscape-architects", "num": "S2", "label": "Landscape Architects", "plural": "landscape architects",
+    "title": "Contract Administration Software for Landscape Architects | CA-Vault",
+    "desc": "Tender landscape projects, show clients a clear bid comparison, manage changes and certify payment without spreadsheets. Built for landscape architecture practices.",
+    "h1": "Contract Administration Software for Landscape Architects",
+    "job": "Show the client a clear bid comparison, then keep the contract tidy.",
+    "lead": "Planting schedules, hardscape items and site furnishings add up to long price lists. CA-Vault compares the bids for you and keeps the contract organised once work starts.",
+    "party": "Consultant / contract administrator", "worksIn": "Bids, changes, payment certificates, documents",
+    "cta": "See CA-Vault for Landscape Architects", "ctaTitle": "See how a landscape tender is reviewed in minutes.",
+    "painsTitle": "A small studio doing a large firm&rsquo;s paperwork",
+    "pains": [
+      { "t": "A day lost per tender", "d": "Comparing contractors&rsquo; submitted bids for the client by entering every price manually." },
+      { "t": "Substitutions and site changes", "d": "Plant substitutions and field adjustments that need pricing, approval and a record." },
+      { "t": "Certificates on top of design work", "d": "Monthly payment review squeezed between deadlines for other projects." }
+    ],
+    "workTitle": "From planting plan to final certificate",
+    "workflow": [
+      { "t": "Tender", "d": "Issue the price schedule and drawings to invited contractors." },
+      { "t": "Review bids", "d": "The comparison is ready when the tender closes. Share it with the client." },
+      { "t": "Manage changes", "d": "Price, approve and sign changes as the site evolves." },
+      { "t": "Certify payment", "d": "Review invoices and issue certificates from the same line items." }
+    ],
+    "shot": "changes", "shotCaption": "Proposed changes waiting on contractor quotes, and change orders tracked through signature.",
+    "outcomes": ["A client-ready bid comparison without manual entry", "Changes signed and filed with their evidence", "Payment certification that is quick to review and reissue"],
+    "features": ["bid-management", "change-orders", "payment-certification", "document-control"],
+    "proofTitle": "Landscape architecture practices were early adopters",
+    "proofText": "Several of the longest-standing customers are landscape architecture firms. One landscape architect described the effect on tender review like this.",
+    "quote": "madigan",
+    "faq": [
+      { "q": "Does it work for small practices?", "a": "Yes. There is a free plan, and the Tender plan covers tendering and bid leveling for up to 10 users. See the pricing page for what each plan includes." },
+      { "q": "Can clients see the bid comparison?", "a": "You can export the comparison to PDF or Excel and share it, or bring the owner into the contract as a stakeholder." },
+      { "q": "How long does setup take?", "a": "ContractComplete onboarding was typically a single session of under an hour. We will confirm the current CA-Vault onboarding process when you book a demo." }
+    ]
+  },
+  {
+    "slug": "consultants", "num": "S3", "label": "Consultants", "plural": "consultants",
+    "title": "Construction Contract Administration for Consultants | CA-Vault",
+    "desc": "Administer construction contracts for your clients without building another administrative system to maintain. Bids, RFIs, changes and certificates in one record.",
+    "h1": "Administer Projects Without Creating Another System to Manage",
+    "job": "Administer the contract on the client&rsquo;s behalf, with a record you can stand behind.",
+    "lead": "As the party in the middle, you carry the record. CA-Vault gives owner, contractor and consultant one place to work so you are not the one reconciling everyone&rsquo;s versions.",
+    "party": "Consultant / construction manager", "worksIn": "ActionBox, RFIs, submittals, changes, certificates",
+    "cta": "See CA-Vault for Consultants", "ctaTitle": "See how the middle of the contract gets lighter.",
+    "painsTitle": "The consultant becomes the filing system",
+    "pains": [
+      { "t": "Every request routes through you", "d": "RFIs, submittals and invoices arrive in different formats from different people." },
+      { "t": "Your spreadsheet is the source of truth", "d": "Which means you maintain it, defend it and rebuild it for every project." },
+      { "t": "Sub-consultant coordination", "d": "Forwarding items for review and chasing responses that affect the schedule." }
+    ],
+    "workTitle": "One queue for everything that needs you",
+    "workflow": [
+      { "t": "Receive", "d": "RFIs, submittals and invoices arrive in your ActionBox." },
+      { "t": "Review or forward", "d": "Respond directly, or send items to sub-consultants for review." },
+      { "t": "Approve", "d": "Sign change orders and certify payments in the platform." },
+      { "t": "Report", "d": "Show the owner contract status without assembling it by hand." }
+    ],
+    "shot": "rfis", "shotCaption": "The RFI log for a contract, with due dates and response-time analytics.",
+    "outcomes": ["One queue instead of several inboxes", "No duplicate entry between contractor and consultant", "A defensible record when questions come later"],
+    "features": ["contract-administration", "rfi-management", "submittals", "payment-certification"],
+    "proofTitle": "No duplication between contractor and consultant",
+    "proofText": "The biggest gain comes when both sides of the contract are in the same record. A consulting firm&rsquo;s chief executive put it this way.",
+    "quote": "garon",
+    "faq": [
+      { "q": "Do our clients and contractors have to pay?", "a": "Contractor invitations are unlimited and free for contractors on paid plans. Each plan includes a set number of users for your own team, with no per-seat add-ons." },
+      { "q": "Can sub-consultants review submittals?", "a": "Yes. Submittals can be forwarded to sub-consultants for their review." },
+      { "q": "Can we use it on only one project to start?", "a": "Yes. Plans are priced by users and locations, not per project, so you can start with one contract and add more." }
+    ]
+  },
+  {
+    "slug": "contractors", "num": "S4", "label": "Contractors", "plural": "contractors",
+    "title": "Construction Administration Software for Contractors | CA-Vault",
+    "desc": "Submit bids, raise RFIs, price changes and send progress invoices from the office or the field. Built for infrastructure, land-development and landscape contractors.",
+    "h1": "Keep the Office and Field Connected, and Cash Moving",
+    "job": "Submit, track and manage project work without losing time to administration.",
+    "lead": "Bid, bill and manage changes against the same contract your consultant is looking at, so invoices are approved sooner and nothing is typed twice.",
+    "party": "Contractor", "worksIn": "Bids, RFIs, change quotes, progress invoices",
+    "cta": "See CA-Vault for Contractors", "ctaTitle": "See how a progress invoice gets approved faster.",
+    "painsTitle": "Paid late because of paperwork",
+    "pains": [
+      { "t": "Invoices bounced for formatting", "d": "Every consultant wants a different spreadsheet layout, and one formula error means a resubmission." },
+      { "t": "Changes done on a handshake", "d": "Extra work completed before the paperwork exists, then argued about at billing." },
+      { "t": "Contract pricing back at the office", "d": "Site staff without quick access to the prices and documents they are building to." }
+    ],
+    "workTitle": "From bid to paid",
+    "workflow": [
+      { "t": "Bid", "d": "Price the schedule online and submit a compliant bid." },
+      { "t": "Ask", "d": "Raise RFIs with marked-up images and track the response." },
+      { "t": "Quote changes", "d": "Price proposed changes and get them signed before the work is billed." },
+      { "t": "Invoice", "d": "Generate a progress invoice from completed quantities and send it for certification." }
+    ],
+    "shot": "invoice", "shotCaption": "A progress invoice built from contract line items, with holdback and tax applied.",
+    "outcomes": ["Consistent, itemised invoices that match the contract", "Signed change orders before the work is invoiced", "Contract documents and pricing available on site"],
+    "features": ["progress-billing", "change-orders", "rfi-management", "progress-reporting"],
+    "proofTitle": "Contract documents wherever the crew is",
+    "proofText": "Contractors use the platform in the field as much as in the office. A general manager described what that access means day to day.",
+    "quote": "torres",
+    "faq": [
+      { "q": "Does it cost anything to bid on a tender in CA-Vault?", "a": "No. Contractor invitations are unlimited and free for contractors on the Tender plan and above." },
+      { "q": "Can we use CA-Vault if the consultant does not?", "a": "Contractors can run their own contracts, quotes, progress billing and change orders in the platform. Ask us in a demo how that works when the consultant is not a user." },
+      { "q": "Is there a mobile app?", "a": "ContractComplete shipped iOS and Android apps for field access. Current CA-Vault app availability is confirmed during your demo." }
+    ]
+  },
+  {
+    "slug": "owners-developers", "num": "S5", "label": "Owners &amp; Developers", "plural": "owners and developers",
+    "title": "Construction Administration Software for Owners & Developers | CA-Vault",
+    "desc": "See contract value, approved changes, progress and payments across your projects. Keep visibility and control from tender to closeout.",
+    "h1": "Visibility and Control From Tender to Closeout",
+    "job": "Maintain visibility and control across the project.",
+    "lead": "You carry the cost of every change and every certificate. CA-Vault shows what was tendered, what has changed, what is complete and what is owed, across all your projects.",
+    "party": "Owner / developer", "worksIn": "Dashboard, change approvals, payment status",
+    "cta": "See CA-Vault for Owners", "ctaTitle": "See your whole portfolio on one screen.",
+    "painsTitle": "Finding out late",
+    "pains": [
+      { "t": "Status by request", "d": "Knowing where a contract stands means asking the consultant for an update." },
+      { "t": "Change creep", "d": "Approved changes accumulate without a running view of their effect on contract value." },
+      { "t": "Thin records at handover", "d": "When a project closes, the history lives in other people&rsquo;s inboxes." }
+    ],
+    "workTitle": "What you see without asking",
+    "workflow": [
+      { "t": "Tender results", "d": "A line-by-line comparison of every bid against your budget." },
+      { "t": "Contract value", "d": "Original value and approved change amounts, side by side." },
+      { "t": "Progress and payment", "d": "Work completed, invoiced and remaining on every contract." },
+      { "t": "What is waiting", "d": "Change orders awaiting approval and RFIs awaiting response." }
+    ],
+    "shot": "dashboard", "shotCaption": "Total contract value, approved change amounts and items awaiting approval across the company.",
+    "outcomes": ["Original value and approved changes visible at all times", "A documented basis for every payment", "A complete project record at closeout"],
+    "features": ["progress-reporting", "change-orders", "project-budgets", "payment-certification"],
+    "proofTitle": "Proof from the owner&rsquo;s side",
+    "proofText": "Most public feedback so far comes from consultants and contractors. We will add an owner or developer story here once one is approved for publication.",
+    "quote": "",
+    "faq": [
+      { "q": "Do we need our consultants to adopt CA-Vault?", "a": "The platform works best when the consultant administers the contract in it and invites you as a stakeholder. Owners can also hold the subscription and bring consultants in. We will talk through both in a demo." },
+      { "q": "Can we see all projects together?", "a": "Yes. The dashboard and contracts list summarise value, progress and outstanding items across contracts." },
+      { "q": "Who owns the project data?", "a": "Data ownership and retention terms will be set out on the security page and in the CA-Vault terms before launch." }
+    ]
+  },
+  {
+    "slug": "municipalities", "num": "S6", "label": "Municipalities", "plural": "municipal teams",
+    "title": "Construction Administration Software for Municipalities | CA-Vault",
+    "desc": "Create a clear, documented project record for public infrastructure work, from tender through completion, shared with consultants and contractors.",
+    "h1": "A Documented Record for Public Infrastructure Projects",
+    "job": "Create a clear, documented project record from tender through completion.",
+    "lead": "Public work has to be explainable. CA-Vault keeps the tender, the bids, the changes and the payments in one traceable record for roads, servicing, parks and other capital projects.",
+    "party": "Public owner", "worksIn": "Tenders, approvals, project records",
+    "cta": "See CA-Vault for Municipalities", "ctaTitle": "See what a traceable tender-to-closeout record looks like.",
+    "painsTitle": "Accountability depends on the record",
+    "pains": [
+      { "t": "Tenders that must be defensible", "d": "Bid results need to be consistent, complete and reproducible when questions are asked." },
+      { "t": "Many projects, few staff", "d": "Capital programs with several consultants and contractors, each reporting differently." },
+      { "t": "Records requests", "d": "Reconstructing why a change was approved or a payment made, long after the project team has moved on." }
+    ],
+    "workTitle": "A consistent process across the capital program",
+    "workflow": [
+      { "t": "Tender", "d": "Issue structured tenders with the same schedule of prices for every bidder." },
+      { "t": "Evaluate", "d": "Use a generated, line-by-line comparison as the basis for award." },
+      { "t": "Oversee", "d": "Follow changes, progress and payments across consultants and contractors." },
+      { "t": "Retain", "d": "Keep the project record together through completion." }
+    ],
+    "shot": "contracts", "shotCaption": "Every contract in the program with stakeholders, value, remaining work and progress.",
+    "outcomes": ["Bid comparisons produced the same way on every tender", "Changes and payments with their approvals attached", "One record across multiple consultants and contractors"],
+    "features": ["bid-management", "document-control", "change-orders", "progress-reporting"],
+    "proofTitle": "Proof from the public sector",
+    "proofText": "The platform has been positioned for townships and municipalities since its ContractComplete days. A municipal customer story will be added here once one is approved for publication.",
+    "quote": "",
+    "faq": [
+      { "q": "Does CA-Vault meet our procurement policy requirements?", "a": "Procurement rules vary by jurisdiction. We will walk through the tender workflow with you so you can assess it against your own bylaws and policies." },
+      { "q": "Where is data stored?", "a": "Hosting location and security details will be published on the security page once verified by the technical team. Ask us directly in the meantime." },
+      { "q": "Can our consultants run the contracts while we keep oversight?", "a": "Yes. That is the typical arrangement: the consultant administers the contract and the municipality has visibility as the owner." }
+    ]
+  }
+]

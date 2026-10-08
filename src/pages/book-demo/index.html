@@ -1,0 +1,44 @@
+<!--
+title: Book a Free Demo | CA-Vault
+description: See CA-Vault in action. Tell us a little about your team and we will show you how CA-Vault fits your construction administration workflow.
+label: Book a Demo
+-->
+<section class="page-hero">
+  <div class="wrap page-hero__in" style="align-items:start">
+    <div class="page-hero__copy">
+      {{crumbs}}
+      <p class="eyebrow"><span>DEMO</span> Book a free demo</p>
+      <h1>See CA-Vault in Action</h1>
+      <p class="lead">Tell us a little about your team and we&rsquo;ll show you how CA-Vault can fit your construction administration workflow.</p>
+      <h2 class="h-sm">What happens in the demo</h2>
+      <ol class="chain">
+        <li><h3>Your workflow first</h3><p>We ask what you tender, who is on your contracts and where the time goes.</p></li>
+        <li><h3>A real contract, end to end</h3><p>Tender, bid comparison, a change order and a payment certificate.</p></li>
+        <li><h3>Plan and next steps</h3><p>Which plan fits, and how onboarding would work for your team.</p></li>
+      </ol>
+      <div style="margin-top:2rem">{{quote:hosgood}}</div>
+    </div>
+    <div>
+      <form class="form" action="/book-demo/thank-you/" method="post" data-form="demo" id="demo-form" novalidate>
+        <div class="form__row">
+          <div class="field"><label for="f-first">First name</label><input id="f-first" name="firstname" autocomplete="given-name" required><p class="field__err">Please enter your first name.</p></div>
+          <div class="field"><label for="f-last">Last name</label><input id="f-last" name="lastname" autocomplete="family-name" required><p class="field__err">Please enter your last name.</p></div>
+        </div>
+        <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required><p class="field__err">Please enter a valid work email.</p></div>
+        <div class="form__row">
+          <div class="field"><label for="f-company">Company</label><input id="f-company" name="company" autocomplete="organization" required><p class="field__err">Please enter your company.</p></div>
+          <div class="field"><label for="f-type">Company type</label>
+            <select id="f-type" name="company_type" required>
+              <option value="">Select one</option><option>Civil engineering</option><option>Landscape architecture</option><option>Consultant / construction manager</option><option>Contractor</option><option>Owner / developer</option><option>Municipality</option><option>Other</option>
+            </select><p class="field__err">Please choose a company type.</p></div>
+        </div>
+        <div class="field"><label for="f-challenge">Biggest administrative challenge <small>(optional)</small></label><textarea id="f-challenge" name="challenge" placeholder="e.g. bid reviews take a full day per tender"></textarea></div>
+        <div class="field"><label for="f-phone">Phone <small>(optional)</small></label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <button class="btn btn--primary btn--lg" type="submit" id="demo-form-submit">Book My Demo</button>
+        <p class="form__fine">We use these details only to arrange and prepare your demo. See our <a href="/legal/privacy/">privacy policy</a>.</p>
+      </form>
+      <ul class="chips" style="margin-top:1.2rem"><li>Formerly ContractComplete</li><li>Since 2015</li><li>Contractors invited free</li></ul>
+      <div style="margin-top:1.5rem">{{ph:Scheduling|Optional calendar scheduling embed|A HubSpot Meetings (or equivalent) link for the sales team so visitors can pick a time directly. The form above must also be connected to HubSpot: portal ID and form GUID required.}}</div>
+    </div>
+  </div>
+</section>

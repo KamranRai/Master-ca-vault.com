@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /book-demo/thank-you/
+
+Sitemap: https://www.ca-vault.com/sitemap.xml

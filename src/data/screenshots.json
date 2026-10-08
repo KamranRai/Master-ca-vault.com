@@ -1,0 +1,8 @@
+{
+  "bids":      { "file": "bid-comparison.webp", "w": 2000, "h": 1319, "label": "Contract / Submissions", "alt": "CA-Vault bid submissions screen comparing four contractors line by line against the average bid price, with the lowest and highest prices highlighted" },
+  "changes":   { "file": "change-orders.webp",  "w": 2000, "h": 1104, "label": "Contract / Change Orders", "alt": "CA-Vault change orders screen showing proposed changes on the left and signed change orders with their values and signature status on the right" },
+  "contracts": { "file": "contracts.webp",      "w": 2000, "h": 1284, "label": "My Contracts", "alt": "CA-Vault contracts list showing each contract's total value, remaining value, invoiceable amount and progress bar" },
+  "dashboard": { "file": "dashboard.webp",      "w": 2000, "h": 1353, "label": "Dashboard", "alt": "CA-Vault dashboard summarising total projects, work outstanding, invoiceable amounts, change orders awaiting approval and RFIs awaiting response" },
+  "invoice":   { "file": "invoice-editor.webp", "w": 2000, "h": 1165, "label": "Invoice Editor", "alt": "CA-Vault invoice editor showing holdback and tax calculations beside a generated progress invoice listing quantities and totals per line item" },
+  "rfis":      { "file": "rfis.webp",           "w": 2000, "h": 1120, "label": "Contract / RFIs", "alt": "CA-Vault RFI log listing requests with submitted, due and response dates beside response-time analytics" }
+}

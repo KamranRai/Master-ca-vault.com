@@ -1,0 +1,37 @@
+{
+  "madigan": {
+    "text": "With ContractComplete the bid review spreadsheet is instantly created when the tender closes, saving me a whole day of work.",
+    "name": "Matthew Madigan", "role": "Landscape Architect", "company": "Adesso Design Inc.", "initials": "MM",
+    "metric": "A whole day", "metricLabel": "of bid review work saved per tender, in the customer&rsquo;s words", "topic": "Bid review"
+  },
+  "hosgood": {
+    "text": "Everything is automated so that bidders can&rsquo;t submit unless it&rsquo;s compliant and the bid review is done instantly.",
+    "name": "Stefanie Hosgood", "role": "Reserves &amp; Bidding Manager", "company": "The Falcon Group", "initials": "SH",
+    "metric": "", "metricLabel": "", "topic": "Compliant bids"
+  },
+  "garon": {
+    "text": "When the contractor and consultant are both using Contract Complete there is no duplication of effort into two systems.",
+    "name": "Mark Garon-Nielsen", "role": "Chief Executive Officer", "company": "Aboud &amp; Associates", "initials": "MG",
+    "metric": "", "metricLabel": "", "topic": "One shared record"
+  },
+  "collin": {
+    "text": "As a contract administrator, the invoice review and Payment Certification process is very easy and fast.",
+    "name": "Collin S.", "role": "Senior Landscape Technologist", "company": "Strybos Barron King", "initials": "CS",
+    "metric": "", "metricLabel": "", "topic": "Payment certification"
+  },
+  "torres": {
+    "text": "The mobile app is very handy in having quick access to all your contract documents (specifications, drawings etc.)",
+    "name": "David Torres", "role": "General Manager", "company": "Torres Hardscapes", "initials": "DT",
+    "metric": "", "metricLabel": "", "topic": "Documents in the field"
+  },
+  "ross": {
+    "text": "The web based app helps me by giving me easy access to pricing in our contracts so I can stay within budget&hellip;",
+    "name": "Ross E.", "role": "Project Coordinator", "company": "Geoscape Contracting", "initials": "RE",
+    "metric": "", "metricLabel": "", "topic": "Contract pricing"
+  },
+  "patitucci": {
+    "text": "Contract Complete has become a staple in our office for administering our contracts and has saved our firm time and money&hellip;",
+    "name": "Mario Patitucci", "role": "Owner and Principal Landscape Architect", "company": "Adesso Design Inc.", "initials": "MP",
+    "metric": "", "metricLabel": "", "topic": "Contract administration"
+  }
+}

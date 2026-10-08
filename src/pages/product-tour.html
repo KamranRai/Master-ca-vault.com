@@ -1,0 +1,38 @@
+<!--
+title: Product Tour: See CA-Vault in 3 Minutes | CA-Vault
+description: A chaptered tour of CA-Vault: dashboard, tender, bid review, contract administration, change orders, payment and the project record.
+label: Product Tour
+-->
+<section class="page-hero page-hero--simple">
+  <div class="wrap page-hero__in">
+    <div class="page-hero__copy">
+      {{crumbs}}
+      <p class="eyebrow"><span>&#9654;</span> Product tour</p>
+      <h1>See CA-Vault in 3 Minutes</h1>
+      <p class="lead">Seven short chapters, each on a real screen. Watch the video when it is ready, or step through the screens below now.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="wrap wrap--narrow">
+    <aside class="ph ph--video" data-placeholder="Video" id="tour-video">
+      <p class="ph__tag">Placeholder &middot; Video</p>
+      <p class="ph__title">CA-Vault 3-Minute Product Tour</p>
+      <p class="ph__note"><strong>Asset needed:</strong> a CA-Vault-branded screen recording with chapter markers at 00:00 Dashboard, 00:30 Tender, 01:00 Bid review, 01:30 Contract administration, 02:00 Change orders, 02:30 Payment, 03:00 Project record. Host with a lazy-loaded player and fire video_start / video_complete events.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <header class="section__head" data-reveal><p class="eyebrow"><span>T.1</span> Chapters</p><h2>Step through the screens</h2></header>
+    <div class="split" style="margin-bottom:4rem"><div data-reveal><p class="eyebrow"><span>00:00</span> Dashboard</p><h3>What needs you today</h3><p>Projects, outstanding work, invoiceable amounts, and the change orders and RFIs waiting on other people.</p><a class="link-arrow" href="/platform/progress-reporting/">Explore Progress Reporting</a></div><div>{{shot:dashboard}}</div></div>
+    <div class="split" style="margin-bottom:4rem"><div data-reveal><p class="eyebrow"><span>00:30 &ndash; 01:00</span> Tender &amp; bid review</p><h3>Every bid, line by line</h3><p>Bidders price the same schedule. The comparison is generated when the tender closes, with outliers highlighted.</p><a class="link-arrow" href="/platform/bid-management/">Explore Bid Management</a></div><div>{{shot:bids}}</div></div>
+    <div class="split" style="margin-bottom:4rem"><div data-reveal><p class="eyebrow"><span>01:30</span> Contract administration</p><h3>RFIs answered on the record</h3><p>Each request with its dates and status, plus response-time analytics for the contract.</p><a class="link-arrow" href="/platform/rfi-management/">Explore RFI Management</a></div><div>{{shot:rfis}}</div></div>
+    <div class="split" style="margin-bottom:4rem"><div data-reveal><p class="eyebrow"><span>02:00</span> Change orders</p><h3>Proposed, priced, signed</h3><p>Proposed changes on the left become change orders on the right, with signatures tracked.</p><a class="link-arrow" href="/platform/change-orders/">Explore Change Orders</a></div><div>{{shot:changes}}</div></div>
+    <div class="split" style="margin-bottom:4rem"><div data-reveal><p class="eyebrow"><span>02:30</span> Payment</p><h3>The invoice builds itself</h3><p>Contract values, work to date and work this period, with holdback and tax applied.</p><a class="link-arrow" href="/platform/payment-certification/">See Payment Certification</a></div><div>{{shot:invoice}}</div></div>
+    <div class="split"><div data-reveal><p class="eyebrow"><span>03:00</span> Project record</p><h3>Every contract, one list</h3><p>Value, remaining work, invoiceable amount and progress for each contract you are part of.</p><a class="link-arrow" href="/platform/contract-administration/">Explore Contract Administration</a></div><div>{{shot:contracts}}</div></div>
+  </div>
+</section>
+{{cta:Seen the screens? See them with your data.|A live demo follows the same chapters using your own workflow.|Book a Free Demo}}
