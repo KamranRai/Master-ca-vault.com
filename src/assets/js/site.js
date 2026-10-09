@@ -22,8 +22,8 @@
     var a = ev.target.closest('a[href^="tel:"], a[href^="mailto:"]');
     if (a) { track(a.href.indexOf('tel:') === 0 ? 'phone_click' : 'email_click', {}); }
   });
-  if (location.pathname.indexOf('/pricing/') === 0) { track('pricing_view', { location: 'page' }); }
-  if (location.pathname.indexOf('/customers/') === 0) { track('case_study_view', {}); }
+  if (location.pathname.indexOf('/pricing/') !== -1) { track('pricing_view', { location: 'page' }); }
+  if (location.pathname.indexOf('/customers/') !== -1) { track('case_study_view', {}); }
 
   /* ---------- navigation ---------- */
   var nav = $('#site-nav'), burger = $('.burger');
@@ -76,7 +76,7 @@
 
   /* ---------- sticky mobile CTA ---------- */
   var sticky = $('.sticky-cta'), foot = $('.foot');
-  var noSticky = /^\/book-demo\//.test(location.pathname);
+  var noSticky = /\/book-demo\//.test(location.pathname);
   $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 
   /* ---------- scroll-driven pieces (one rAF loop) ---------- */

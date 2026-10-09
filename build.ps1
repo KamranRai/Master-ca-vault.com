@@ -3,11 +3,13 @@
 # Reads src/ (pages, partials, data, assets) and writes the deployable site to dist/.
 # Keep this file ASCII-only (Windows PowerShell 5.1 reads scripts as ANSI).
 
+param([string]$Base = '', [string]$OutDir = 'dist', [string]$Site = 'https://www.ca-vault.com')
+
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $src  = Join-Path $root 'src'
-$out  = Join-Path $root 'dist'
-$site = 'https://www.ca-vault.com'
+$out  = Join-Path $root $OutDir
+$site = $Site.TrimEnd('/')
 $utf8 = New-Object System.Text.UTF8Encoding $false
 $today = (Get-Date).ToString('yyyy-MM-dd')
 
@@ -486,3 +488,16 @@ Get-ChildItem $out -Recurse -Filter *.html | ForEach-Object {
 "Built $($pages.Count) pages -> $out"
 if ($broken.Count) { "BROKEN INTERNAL LINKS:"; $broken.GetEnumerator() | ForEach-Object { "  $($_.Key)   (first seen in $($_.Value))" } }
 else { 'Internal links OK' }
+
+# ---------- optional sub-path hosting (e.g. GitHub Pages project sites) ----------
+# -Base '/repo-name' prefixes every root-absolute URL so the site works under https://user.github.io/repo-name/.
+WriteText (Join-Path $out '.nojekyll') ''
+if ($Base) {
+  $Base = '/' + $Base.Trim('/')
+  Get-ChildItem $out -Recurse -Filter *.html | ForEach-Object {
+    $t = ReadText $_.FullName
+    $t = [regex]::Replace($t, '(href|src|action)="/(?!/)', ('$1="' + $Base + '/'))
+    WriteText $_.FullName $t
+  }
+  "Applied base path $Base"
+}

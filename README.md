@@ -172,3 +172,15 @@ To wire up: `video_start`, `video_complete`, `product_tour_complete` and `resour
 ## 14. Missing assets before launch
 
 Official logo SVG and favicon set; branded videos; the missing screenshots listed in section 5; customer logos and approvals; case studies; legal documents; contact details; security facts; HubSpot and GA4 IDs; a social share image (currently the dashboard screenshot); the final redirect map.
+
+---
+
+## Deploying to GitHub Pages
+
+GitHub Pages serves this repository from the `docs/` folder (Settings > Pages > Branch `main`, folder `/docs`). Because a project site lives under `/Master-ca-vault.com/`, it needs its own build with a base path. After any change in `src/`, run this from PowerShell and commit the result:
+
+```
+powershell -ExecutionPolicy Bypass -File build.ps1 -Base "/Master-ca-vault.com" -OutDir docs -Site "https://kamranrai.github.io/Master-ca-vault.com"
+```
+
+Once a custom domain (for example www.ca-vault.com) is attached, drop `-Base` and `-Site` so URLs are served from the root.
