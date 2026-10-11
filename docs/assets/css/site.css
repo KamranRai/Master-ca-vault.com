@@ -673,3 +673,13 @@ html.theme-anim, html.theme-anim * { transition: background-color .3s, border-co
 @media (prefers-reduced-motion: reduce) { .loader__dial::before, .loader__dial::after, .loader__dial img { animation: none !important; } }
 .js .loader[hidden] { display: none; }
 .brand__mark--light { display: none !important; } [data-theme="dark"] .brand__mark--dark { display: none !important; } [data-theme="dark"] .brand__mark--light { display: block !important; }
+
+/* customer logos: every logo is trimmed to its artwork, then fitted to the same box */
+.logos li { padding: 0; }
+.logos li img, .logos--strip li img, .logos-4 .logos li img, .demo-logos .logos li img { width: 76%; height: 56%; max-width: none; max-height: none; object-fit: contain; }
+.logos li.is-tall img, .logos--strip li.is-tall img, .logos-4 .logos li.is-tall img, .demo-logos .logos li.is-tall img { height: 74%; }
+.logos li.is-fill img, .logos--strip li.is-fill img, .logos-4 .logos li.is-fill img, .demo-logos .logos li.is-fill img { width: 100%; height: 100%; object-fit: cover; }
+.logos li { position: relative; }
+.logos li img, .logos--strip li img, .logos-4 .logos li img, .demo-logos .logos li img { position: absolute; left: 12%; top: 22%; }
+.logos li.is-tall img, .logos--strip li.is-tall img, .logos-4 .logos li.is-tall img, .demo-logos .logos li.is-tall img { top: 13%; }
+.logos li.is-fill img, .logos--strip li.is-fill img, .logos-4 .logos li.is-fill img, .demo-logos .logos li.is-fill img { left: 0; top: 0; }
