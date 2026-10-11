@@ -1,6 +1,6 @@
 # CA-Vault
 
-> CA-Vault (formerly ContractComplete, operating since 2015) is construction project administration software. It keeps bids, contracts, documents, changes, RFIs, submittals, inspections and payments connected on one contract record shared by the owner, the consultant and the contractor. It is strongest on unit-price construction contracts.
+> CA-Vault (formerly ContractComplete, operating since 2013) is construction project administration software. It keeps bids, contracts, documents, changes, RFIs, submittals, inspections and payments connected on one contract record shared by the owner, the consultant and the contractor. It is strongest on unit-price construction contracts.
 
 ## Product
 - [Platform overview](https://www.ca-vault.com/platform/): all capabilities, organised by job

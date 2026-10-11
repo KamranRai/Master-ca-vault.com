@@ -196,7 +196,7 @@ function Render-Feature($f) {
     <div data-reveal>
       <p class="eyebrow"><span>$($f.num).3</span> Proof</p>
       <h2>Evidence, not adjectives.</h2>
-      <p>CA-Vault is the next evolution of ContractComplete, a platform construction teams have used on real contracts since 2015. Where customers have described a result in their own words, we show it next to the feature it relates to.</p>
+      <p>CA-Vault is the next evolution of ContractComplete, a platform construction teams have used on real contracts since 2013. Where customers have described a result in their own words, we show it next to the feature it relates to.</p>
       <a class="link-arrow" href="/customers/">Read Customer Stories</a>
     </div>
     $proof
@@ -380,7 +380,7 @@ Get-ChildItem (Join-Path $src 'static') -File | ForEach-Object { Copy-Item $_.Fu
 
 $org = @{
   '@type' = 'Organization'; '@id' = "$site/#org"; name = 'CA-Vault'; alternateName = 'ContractComplete'
-  url = "$site/"; logo = "$site/assets/img/brand/ca-vault-logo.png"; foundingDate = '2015'
+  url = "$site/"; logo = "$site/assets/img/brand/ca-vault-logo.png"; foundingDate = '2013'
   description = 'CA-Vault, formerly ContractComplete, is construction project administration software.'
 }
 

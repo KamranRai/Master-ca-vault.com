@@ -161,7 +161,7 @@ To wire up: `video_start`, `video_complete`, `product_tour_complete` and `resour
 
 ## 13. Claims that need business verification
 
-- "Since 2015" and "Formerly ContractComplete" wording.
+- "Formerly ContractComplete" wording. (Founding year confirmed as 2013.)
 - "Under 60 minutes" onboarding (historical ContractComplete claim).
 - All seven testimonial excerpts: they were collected through an automated summary of contractcomplete.com, so check each word-for-word against the source and confirm permission to reuse under the CA-Vault name. Note the old homepage spells one company "About & Associates"; this site uses "Aboud & Associates".
 - The twelve customer organisation names.
@@ -198,4 +198,4 @@ Once a custom domain (for example www.ca-vault.com) is attached, drop `-Base` an
 - Real portraits for Mario Patitucci and Mark Garon-Nielsen, taken from the ContractComplete testimonials page. Other customers keep initials because no portrait is published there.
 - Social links in the footer (LinkedIn, Facebook, Instagram).
 
-Still to verify: Capterra lists the company as founded in 2013, while this site says "since 2015"; permission to display each customer logo and portrait.
+Founding year is 2013 (confirmed by the business; matches Capterra). Still to verify: permission to display each customer logo and portrait.
