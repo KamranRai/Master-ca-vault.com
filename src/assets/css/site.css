@@ -672,3 +672,4 @@ html.theme-anim, html.theme-anim * { transition: background-color .3s, border-co
 @keyframes loader-pulse { 50% { transform: scale(.94); opacity: .85; } }
 @media (prefers-reduced-motion: reduce) { .loader__dial::before, .loader__dial::after, .loader__dial img { animation: none !important; } }
 .js .loader[hidden] { display: none; }
+.brand__mark--light { display: none !important; } [data-theme="dark"] .brand__mark--dark { display: none !important; } [data-theme="dark"] .brand__mark--light { display: block !important; }

@@ -457,7 +457,7 @@ foreach ($p in $pages) {
 </head>
 <body class="$bodyClass">
 <div class="loader" id="page-loader" role="status" aria-label="Loading CA-Vault">
-  <div class="loader__dial"><img src="/assets/img/brand/ca-vault-mark.png" width="134" height="166" alt=""></div>
+  <div class="loader__dial"><img class="brand__mark--dark" src="/assets/img/brand/ca-vault-mark.png" width="134" height="166" alt=""><img class="brand__mark--light" src="/assets/img/brand/ca-vault-mark-light.png" width="134" height="166" alt=""></div>
   <p>Opening the vault&hellip;</p>
 </div>
 <script>(function(){var r=document.documentElement,done=function(){r.classList.add('is-loaded');setTimeout(function(){var l=document.getElementById('page-loader');if(l){l.hidden=true}},600)};if(document.readyState==='complete'){done()}else{window.addEventListener('load',done);setTimeout(done,6000)}})();</script>
