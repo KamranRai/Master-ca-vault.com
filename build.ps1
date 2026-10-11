@@ -65,12 +65,14 @@ function Render-Quote($id) {
   $q = $quotes.$id
   if (-not $q) { throw "Unknown testimonial '$id'" }
   $metric = ''; if ($q.metric) { $metric = "<p class=`"quote__metric`"><strong>$($q.metric)</strong><span>$($q.metricLabel)</span></p>" }
+  $av = "<span class=`"avatar`" aria-hidden=`"true`">$($q.initials)</span>"
+  if ($q.photo) { $av = "<span class=`"avatar avatar--photo`"><img src=`"/assets/img/people/$($q.photo)`" width=`"96`" height=`"96`" alt=`"$($q.name)`" loading=`"lazy`"></span>" }
   return @"
 <figure class="quote" data-reveal>
   $metric
   <blockquote><p>&ldquo;$($q.text)&rdquo;</p></blockquote>
   <figcaption>
-    <span class="avatar" aria-hidden="true">$($q.initials)</span>
+    $av
     <span><strong>$($q.name)</strong><br>$($q.role), $($q.company)</span>
   </figcaption>
   <p class="quote__src">Customer feedback shared while the product was named ContractComplete. <a href="/customers/">Read customer stories</a></p>
@@ -82,7 +84,9 @@ function Render-Cta($h, $p, $b) {
   if (-not $h) { $h = 'Ready to simplify construction project administration?' }
   if (-not $p) { $p = 'Tell us a little about your team and we will show you how CA-Vault fits the way you tender, administer and certify work.' }
   if (-not $b) { $b = 'Book a Free Demo' }
+  $trust = $partials['trustrow'].Replace('{{> logos}}', $partials['logos'].Replace('class="logos"', 'class="logos logos--strip"'))
   return @"
+$trust
 <section class="cta-band" aria-labelledby="cta-h">
   <div class="wrap cta-band__in">
     <div>
@@ -380,6 +384,7 @@ $org = @{
   description = 'CA-Vault, formerly ContractComplete, is construction project administration software.'
 }
 
+$searchIndex = @()
 foreach ($p in $pages) {
   $body = Expand $p.body
   $isHome = ($p.path -eq '/')
@@ -443,7 +448,7 @@ foreach ($p in $pages) {
 <meta name="twitter:description" content="$(Esc (Plain $p.desc))">
 <meta name="theme-color" content="#4B5158">
 <link rel="icon" type="image/png" href="/assets/img/brand/ca-vault-icon.png">
-<script>document.documentElement.className='js'</script>
+<script>document.documentElement.className='js';try{var t=localStorage.getItem('cv-theme');if(t){document.documentElement.setAttribute('data-theme',t)}}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Nunito:wght@400;600;700;800;900&display=swap">
@@ -463,10 +468,18 @@ $($partials['footer'])
 </html>
 "@
   if ($html -match '\{\{[^}]+\}\}') { throw "Unexpanded macro in $($p.path): $($Matches[0])" }
+  if (-not $p.noindex -and $p.path -ne '/404.html') {
+    $heads = @()
+    foreach ($m in [regex]::Matches($body, '(?s)<(h1|h2|h3|summary|dt)[^>]*>(.*?)</\1>')) { $heads += (Plain $m.Groups[2].Value) }
+    $sec = 'Page'; if ($crumbs.Count -gt 1) { $sec = Plain $crumbs[1].name }; if ($isHome) { $sec = 'Home' }
+    $searchIndex += @{ t = ((Plain $p.title) -replace '\s*\|\s*CA-Vault.*$', ''); d = (Plain $p.desc); u = $p.path; s = $sec; k = ($heads -join ' | ') }
+  }
   if ($p.path -eq '/404.html') { $file = Join-Path $out '404.html' }
   else { $file = Join-Path $out (($p.path.TrimStart('/') -replace '/', '\') + 'index.html') }
   WriteText $file $html
 }
+
+WriteText (Join-Path $out 'search.json') (Json $searchIndex)
 
 # ---------- sitemap + link check ----------
 $sm = '<?xml version="1.0" encoding="UTF-8"?>' + "`n" + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "`n"

@@ -2,6 +2,7 @@
 (function () {
   'use strict';
   var d = document, w = window;
+  var scriptSrc = d.currentScript ? d.currentScript.getAttribute('src') : '/assets/js/site.js';
   var $ = function (s, c) { return (c || d).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || d).querySelectorAll(s)); };
   var reduce = w.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -207,7 +208,9 @@
       b.addEventListener('click', function () {
         btns.forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
         $('blockquote p', q).innerHTML = '“' + b.getAttribute('data-text') + '”';
-        $('.avatar', q).textContent = b.getAttribute('data-initials');
+        var av = $('.avatar', q), photo = $('.avatar img', b);
+        av.classList.toggle('avatar--photo', !!photo);
+        if (photo) { av.innerHTML = ''; av.appendChild(photo.cloneNode(true)); } else { av.textContent = b.getAttribute('data-initials'); }
         $('figcaption span:last-child', q).innerHTML = '<strong>' + b.getAttribute('data-name') + '</strong><br>' + b.getAttribute('data-role');
         var m = $('.quote__metric', q);
         if (m) { m.hidden = !b.getAttribute('data-metric'); }
@@ -247,4 +250,93 @@
       location.href = form.getAttribute('action');
     });
   });
+
+  /* ---------- light / dark theme ---------- */
+  var themeBtn = $('#theme-toggle'), root = d.documentElement;
+  if (themeBtn) {
+    themeBtn.setAttribute('aria-pressed', String(root.getAttribute('data-theme') === 'dark'));
+    themeBtn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') !== 'dark';
+      root.classList.add('theme-anim');
+      if (dark) { root.setAttribute('data-theme', 'dark'); } else { root.removeAttribute('data-theme'); }
+      themeBtn.setAttribute('aria-pressed', String(dark));
+      try { localStorage.setItem('cv-theme', dark ? 'dark' : ''); } catch (e) {}
+      setTimeout(function () { root.classList.remove('theme-anim'); }, 350);
+      track('theme_toggle', { label: dark ? 'dark' : 'light' });
+    });
+  }
+
+  /* ---------- site search (index is built at build time: /search.json) ---------- */
+  var sBtn = $('#search-toggle'), sPanel = $('#site-search'), sInput = $('#search-input'), sOut = $('#search-results');
+  var base = (scriptSrc || '').replace(/assets\/js\/site\.js.*$/, '') || '/';
+  var index = null, loading = false;
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function openSearch(open) {
+    sPanel.hidden = !open;
+    sBtn.setAttribute('aria-expanded', String(open));
+    if (open) {
+      closeMenus();
+      sInput.focus();
+      if (!index && !loading) {
+        loading = true;
+        fetch(base + 'search.json').then(function (r) { return r.json(); }).then(function (j) { index = j; runSearch(); }).catch(function () { sOut.innerHTML = '<p class="search__empty">Search is unavailable right now.</p>'; });
+      }
+    } else { sBtn.focus(); }
+  }
+  function runSearch() {
+    var q = sInput.value.trim().toLowerCase();
+    if (!index || q.length < 2) { sOut.innerHTML = ''; return; }
+    var terms = q.split(/\s+/);
+    var hits = [];
+    index.forEach(function (p) {
+      var t = p.t.toLowerCase(), dsc = p.d.toLowerCase(), k = p.k.toLowerCase(), score = 0, all = true;
+      terms.forEach(function (w) {
+        var s = (t.indexOf(w) !== -1 ? 6 : 0) + (k.indexOf(w) !== -1 ? 3 : 0) + (dsc.indexOf(w) !== -1 ? 2 : 0);
+        if (!s) { all = false; }
+        score += s;
+      });
+      if (all) { if (t.indexOf(q) !== -1) { score += 6; } hits.push({ p: p, s: score }); }
+    });
+    hits.sort(function (a, b) { return b.s - a.s; });
+    if (!hits.length) { sOut.innerHTML = '<p class="search__empty">No pages match “' + esc(sInput.value) + '”. Try a feature name, a role or a term such as “holdback”.</p>'; return; }
+    var re = new RegExp('(' + terms.map(function (w) { return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|') + ')', 'ig');
+    sOut.innerHTML = hits.slice(0, 8).map(function (h) {
+      return '<a href="' + base + h.p.u.replace(/^\//, '') + '"><i>' + esc(h.p.s) + '</i><b>' + esc(h.p.t).replace(re, '<mark>$1</mark>') + '</b><span>' + esc(h.p.d).replace(re, '<mark>$1</mark>') + '</span></a>';
+    }).join('');
+    track('site_search', { label: q });
+  }
+  if (sBtn && sPanel) {
+    var deb;
+    sBtn.addEventListener('click', function () { openSearch(sPanel.hidden); });
+    $('#search-close').addEventListener('click', function () { openSearch(false); });
+    sInput.addEventListener('input', function () { clearTimeout(deb); deb = setTimeout(runSearch, 120); });
+    sInput.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') { var first = $('a', sOut); if (first) { location.href = first.href; } }
+    });
+    d.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && !sPanel.hidden) { openSearch(false); }
+      if (ev.key === '/' && sPanel.hidden && !/input|textarea|select/i.test(ev.target.tagName)) { ev.preventDefault(); openSearch(true); }
+    });
+    d.addEventListener('click', function (ev) { if (!sPanel.hidden && !ev.target.closest('#site-search, #search-toggle')) { sPanel.hidden = true; sBtn.setAttribute('aria-expanded', 'false'); } });
+  }
+
+  /* ---------- count-up numbers ---------- */
+  var counts = $$('[data-count]');
+  if (counts.length && 'IntersectionObserver' in w && !reduce) {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) { return; }
+        cio.unobserve(e.target);
+        var el = e.target, end = parseFloat(el.getAttribute('data-count')), dec = parseInt(el.getAttribute('data-dec') || '0', 10), pre = el.getAttribute('data-prefix') || '', t0 = null;
+        var step = function (ts) {
+          t0 = t0 || ts;
+          var k = Math.min(1, (ts - t0) / 900), v = end * (1 - Math.pow(1 - k, 3));
+          el.textContent = pre + v.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+          if (k < 1) { requestAnimationFrame(step); }
+        };
+        requestAnimationFrame(step);
+      });
+    }, { threshold: 0.6 });
+    counts.forEach(function (el) { cio.observe(el); });
+  }
 })();

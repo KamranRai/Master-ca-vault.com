@@ -20,6 +20,7 @@ label: Home
         <li>Tender to closeout</li>
         <li>Free for invited contractors</li>
       </ul>
+      <p class="hero__rating"><a class="rating" href="https://www.capterra.com/p/166394/ContractComplete/reviews/" rel="noopener" target="_blank" data-event="review_click" data-loc="hero"><b>4.8</b><span><span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>out of 5 on Capterra &middot; 21 reviews as ContractComplete</span></a></p>
     </div>
 
     <div class="scene" aria-label="CA-Vault product interface">
@@ -51,6 +52,15 @@ label: Home
       <div class="trust__item"><span class="trust__k">Under 60 min<sup>*</sup></span><span class="trust__v">Typical onboarding session, with a person, not a manual.</span></div>
     </div>
     <p class="trust__note">* Historical ContractComplete onboarding figure. See <a href="/pricing/#getting-started" style="color:inherit">getting started</a>.</p>
+  </div>
+</section>
+
+<!-- 2b. CUSTOMER LOGOS + WHAT "CA" MEANS -->
+<section class="section section--white" aria-label="Customers and the CA-Vault name">
+  <div class="wrap">
+    <p class="h-sm" style="margin-top:0">Part of the workflow at teams across construction and design</p>
+    {{> logos}}
+    <div style="margin-top:clamp(3rem,7vw,5.5rem)">{{> ca-explainer}}</div>
   </div>
 </section>
 
@@ -338,21 +348,17 @@ label: Home
       <div class="proof__pick" role="group" aria-label="Choose a customer">
         <button class="proof__btn" type="button" aria-pressed="true" data-metric="1" data-initials="MM" data-name="Matthew Madigan" data-role="Landscape Architect, Adesso Design Inc." data-text="With ContractComplete the bid review spreadsheet is instantly created when the tender closes, saving me a whole day of work."><span class="avatar" aria-hidden="true">MM</span><span><b>Matthew Madigan</b><small>Bid review</small></span></button>
         <button class="proof__btn" type="button" aria-pressed="false" data-initials="SH" data-name="Stefanie Hosgood" data-role="Reserves &amp; Bidding Manager, The Falcon Group" data-text="Everything is automated so that bidders can&rsquo;t submit unless it&rsquo;s compliant and the bid review is done instantly."><span class="avatar" aria-hidden="true">SH</span><span><b>Stefanie Hosgood</b><small>Compliant bids</small></span></button>
-        <button class="proof__btn" type="button" aria-pressed="false" data-initials="MG" data-name="Mark Garon-Nielsen" data-role="Chief Executive Officer, Aboud &amp; Associates" data-text="When the contractor and consultant are both using Contract Complete there is no duplication of effort into two systems."><span class="avatar" aria-hidden="true">MG</span><span><b>Mark Garon-Nielsen</b><small>One shared record</small></span></button>
+        <button class="proof__btn" type="button" aria-pressed="false" data-initials="MG" data-name="Mark Garon-Nielsen" data-role="Chief Executive Officer, Aboud &amp; Associates" data-text="When the contractor and consultant are both using Contract Complete there is no duplication of effort into two systems."><span class="avatar avatar--photo"><img src="/assets/img/people/mark-garon-nielsen.webp" width="96" height="96" alt="" loading="lazy"></span><span><b>Mark Garon-Nielsen</b><small>One shared record</small></span></button>
         <button class="proof__btn" type="button" aria-pressed="false" data-initials="CS" data-name="Collin S." data-role="Senior Landscape Technologist, Strybos Barron King" data-text="As a contract administrator, the invoice review and Payment Certification process is very easy and fast."><span class="avatar" aria-hidden="true">CS</span><span><b>Collin S.</b><small>Payment certification</small></span></button>
         <button class="proof__btn" type="button" aria-pressed="false" data-initials="DT" data-name="David Torres" data-role="General Manager, Torres Hardscapes" data-text="The mobile app is very handy in having quick access to all your contract documents (specifications, drawings etc.)"><span class="avatar" aria-hidden="true">DT</span><span><b>David Torres</b><small>Documents in the field</small></span></button>
+        <button class="proof__btn" type="button" aria-pressed="false" data-initials="MP" data-name="Mario Patitucci" data-role="Owner and Principal Landscape Architect, Adesso Design Inc." data-text="Contract Complete has become a staple in our office for administering our contracts and has saved our firm time and money&hellip;"><span class="avatar avatar--photo"><img src="/assets/img/people/mario-patitucci.webp" width="96" height="96" alt="" loading="lazy"></span><span><b>Mario Patitucci</b><small>Contract administration</small></span></button>
         <a class="link-arrow" href="/customers/" style="margin-top:.6rem">Read Customer Stories</a>
       </div>
     </div>
 
-    <div style="margin-top:clamp(3rem,6vw,5rem)" data-reveal>
-      <p class="h-sm">Part of the workflow at teams across construction and design</p>
-      <ul class="wall">
-        <li>Adesso Design</li><li>Aboud &amp; Associates</li><li>The Falcon Group</li><li>WSP</li>
-        <li>Fotenn</li><li>Strybos Barron King</li><li>D.G. Biddle</li><li>CB Consultants</li>
-        <li>NAK Design Strategies</li><li>Carchidi</li><li>Geoscape Contracting</li><li>Torres Hardscapes</li>
-      </ul>
-      <p class="note" style="margin-top:.8rem">Organisations referenced as customers on the ContractComplete website. Official logos will replace these names once each is verified and approved.</p>
+    <div style="margin-top:clamp(3rem,6vw,5rem)">
+      <p class="h-sm">By the numbers</p>
+      {{> stats}}
     </div>
   </div>
 </section>

@@ -11,7 +11,7 @@
   },
   "garon": {
     "text": "When the contractor and consultant are both using Contract Complete there is no duplication of effort into two systems.",
-    "name": "Mark Garon-Nielsen", "role": "Chief Executive Officer", "company": "Aboud &amp; Associates", "initials": "MG",
+    "name": "Mark Garon-Nielsen", "role": "Chief Executive Officer", "company": "Aboud &amp; Associates", "initials": "MG", "photo": "mark-garon-nielsen.webp",
     "metric": "", "metricLabel": "", "topic": "One shared record"
   },
   "collin": {
@@ -31,7 +31,7 @@
   },
   "patitucci": {
     "text": "Contract Complete has become a staple in our office for administering our contracts and has saved our firm time and money&hellip;",
-    "name": "Mario Patitucci", "role": "Owner and Principal Landscape Architect", "company": "Adesso Design Inc.", "initials": "MP",
+    "name": "Mario Patitucci", "role": "Owner and Principal Landscape Architect", "company": "Adesso Design Inc.", "initials": "MP", "photo": "mario-patitucci.webp",
     "metric": "", "metricLabel": "", "topic": "Contract administration"
   }
 }
