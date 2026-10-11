@@ -656,3 +656,19 @@ html.theme-anim, html.theme-anim * { transition: background-color .3s, border-co
 .demo-logos .logos { grid-template-columns: repeat(4, 1fr); gap: .5rem; } .demo-logos .logos li { height: 64px; padding: .5rem; }
 .logos li { overflow: hidden; } .logos img { max-height: 70px; } .logos--strip img { max-height: 50px; } .logos--4 img { max-height: 92px; } .demo-logos .logos img { max-height: 44px; } .logos li.is-fill img { max-height: none; }
 @media (min-width: 1000px) { .logos-4 .logos { grid-template-columns: repeat(4, 1fr); } .logos-4 .logos li { height: 128px; } .logos-4 .logos img { max-height: 92px; } }
+
+/* page loader: only shown when JavaScript is running and the page is still loading */
+.loader { display: none; }
+.js .loader { position: fixed; inset: 0; z-index: 500; display: grid; place-content: center; justify-items: center; gap: 1.4rem; background: var(--paper); opacity: 0; animation: loader-in .2s .25s forwards; transition: opacity .4s, visibility .4s; }
+.loader__dial { position: relative; width: 132px; height: 132px; display: grid; place-items: center; }
+.loader__dial::before, .loader__dial::after { content: ""; position: absolute; inset: 0; border-radius: 50%; }
+.loader__dial::before { border: 3px dashed var(--g-400); animation: loader-spin 9s linear infinite; }
+.loader__dial::after { border: 4px solid transparent; border-top-color: var(--amber-500); border-right-color: var(--amber-500); animation: loader-spin 1.1s cubic-bezier(.5,.1,.5,.9) infinite; }
+.loader__dial img { height: 72px; width: auto; animation: loader-pulse 1.6s ease-in-out infinite; }
+.loader p { margin: 0; font: 700 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.is-loaded .loader { opacity: 0 !important; visibility: hidden; animation: none; pointer-events: none; }
+@keyframes loader-in { to { opacity: 1; } }
+@keyframes loader-spin { to { transform: rotate(360deg); } }
+@keyframes loader-pulse { 50% { transform: scale(.94); opacity: .85; } }
+@media (prefers-reduced-motion: reduce) { .loader__dial::before, .loader__dial::after, .loader__dial img { animation: none !important; } }
+.js .loader[hidden] { display: none; }

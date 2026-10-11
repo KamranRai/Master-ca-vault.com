@@ -456,6 +456,11 @@ foreach ($p in $pages) {
 <script type="application/ld+json">$ld</script>
 </head>
 <body class="$bodyClass">
+<div class="loader" id="page-loader" role="status" aria-label="Loading CA-Vault">
+  <div class="loader__dial"><img src="/assets/img/brand/ca-vault-mark.png" width="134" height="166" alt=""></div>
+  <p>Opening the vault&hellip;</p>
+</div>
+<script>(function(){var r=document.documentElement,done=function(){r.classList.add('is-loaded');setTimeout(function(){var l=document.getElementById('page-loader');if(l){l.hidden=true}},600)};if(document.readyState==='complete'){done()}else{window.addEventListener('load',done);setTimeout(done,6000)}})();</script>
 <a class="skip" href="#main">Skip to content</a>
 $header
 <main id="main">
