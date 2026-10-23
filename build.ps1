@@ -433,6 +433,15 @@ foreach ($p in $pages) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K8XB59GX');</script>
+<!-- End Google Tag Manager -->
+
 <title>$($p.title)</title>
 <meta name="description" content="$(Esc (Plain $p.desc))">
 <meta name="robots" content="$robots">
@@ -456,6 +465,12 @@ foreach ($p in $pages) {
 <script type="application/ld+json">$ld</script>
 </head>
 <body class="$bodyClass">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8XB59GX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div class="loader" id="page-loader" role="status" aria-label="Loading CA-Vault">
   <div class="loader__dial"><img class="brand__mark--dark" src="/assets/img/brand/ca-vault-mark.png" width="134" height="166" alt=""><img class="brand__mark--light" src="/assets/img/brand/ca-vault-mark-light.png" width="134" height="166" alt=""></div>
   <p>Opening the vault&hellip;</p>
